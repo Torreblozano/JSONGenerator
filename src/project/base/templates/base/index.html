@@ -1,0 +1,43 @@
+{% extends 'base/main.html' %}
+
+{% block home_button %}
+    <!-- Deja el bloque home_button vacío para no mostrar el botón HOME en esta página -->
+{% endblock home_button %}
+
+{% block content %}
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Create JSON</title>
+    </head>
+
+    <body>
+    <h1>Create a new JSON</h1>
+        {% if directory_structure %}
+            <p>Information created, click here to edit:</p>
+            <ul>
+                {% for data in directory_structure %}
+                    {% if data.level == 0 and data.isDirectory %}
+                        <li>
+                            <form method="get" action="{% url 'idata_list' path=data.pathRoot %}">
+                                {% csrf_token %}
+                                <input type="hidden" name="path" value="{{ data.path }}">
+                                <button type="submit">Ver</button>
+                            </form>
+                        </li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        {% else %}
+            <form method="post" action="{% url 'index' %}">
+                {% csrf_token %}
+                <input type="text" name="selected_directory" id="selected_directory" placeholder="Select a directory...">
+                <button type="submit">Enviar</button>
+            </form>
+        {% endif %}
+
+      <h1>Update an existing JSON</h1>
+    </body>
+
+{% endblock content %}
