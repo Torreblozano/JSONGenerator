@@ -1,0 +1,18 @@
+{% extends 'base/main.html' %}
+
+{% block content %}
+ <h1>Update an existing JSON</h1>
+        {% if directory_root %}
+            <form method="get" action="{% url 'idata_list' path=directory_root %}">
+                        {% csrf_token %}
+                         <button type="submit">Ver</button>
+            </form>
+        {% else %}
+            <form action="{% url 'update_json' %}" method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                {{ json_form.as_p }}
+                <button type="submit">Subir</button>
+            </form>
+        {% endif %}
+
+{% endblock content %}

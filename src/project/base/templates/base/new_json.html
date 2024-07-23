@@ -1,0 +1,24 @@
+{% extends 'base/main.html' %}
+
+{% block content %}
+    <h1>Create a new JSON</h1>
+        {% if directory_structure %}
+            <p>Information created, click here to edit:</p>
+
+             {% for data in directory_structure %}
+                {% if data.level == 0 and data.isDirectory %}
+                    <form method="get" action="{% url 'idata_list' path=data.pathRoot %}">
+                        {% csrf_token %}
+                         <button type="submit">Ver</button>
+                    </form>
+                {% endif %}
+            {% endfor %}
+
+        {% else %}
+            <form method="post" action="{% url 'new_json' %}">
+                {% csrf_token %}
+                <input type="text" name="selected_directory" id="selected_directory" placeholder="Select a directory...">
+                <button type="submit">Enviar</button>
+            </form>
+        {% endif %}
+{% endblock content %}

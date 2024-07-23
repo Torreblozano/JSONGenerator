@@ -16,7 +16,11 @@ def process_json_data(idatas):
         if not data.isDirectory:
             file_path = data.path
             object_name = data.name
-            data.SavePath = upload_file_view(file_path)
+            modification_date = datetime.strptime(data.modification_date, "%Y-%m-%d %H:%M:%S")
+            last_update = datetime.strptime(data.last_update, "%Y-%m-%d %H:%M:%S")
+
+            if modification_date > last_update or modification_date == last_update:
+                data.SavePath = upload_file_view(file_path)
 
         if not data.id in objects_dic:
             objects_dic[data.id] = Create_Class(data)
@@ -39,9 +43,9 @@ def process_json_data(idatas):
 
 def Create_Class(Idata):
     data = Idata
-    date_now = datetime.now()
-    strf_date = date_now.strftime("%Y-%m-%d %H:%M:%S")
-    my_object = My_Object(data.id, data.level, data.name, data.description, strf_date, data.path, data.pathRoot, data.SavePath, None)
+    strf_date = data.created_at.strftime("%Y-%m-%d %H:%M:%S")
+    createf_date_str =data.modification_date.strftime("%Y-%m-%d %H:%M:%S")
+    my_object = My_Object(data.id, data.level, data.name, data.description,createf_date_str, strf_date, data.path, data.pathRoot, data.SavePath, None)
     return my_object
 
 def Find_childs(id, Obj, dic):
@@ -60,6 +64,7 @@ def obj_to_dict(obj):
         "name": obj.name,
         "description": obj.description,
         "created_at": obj.created_at,
+        "modification_date": obj.modification_date,
         "path": obj.path,
         "pathroot": obj.pathroot,
         "savepath": obj.savepath,
@@ -80,12 +85,13 @@ def upload_file_view(local_file_path):
 
         return file_url
 class My_Object:
-    def __init__(self,id, level, name, description, created_at, path, pathroot, savepath, childs):
+    def __init__(self,id, level, name, description, created_at,modification_date, path, pathroot, savepath, childs):
         self.id = id
         self.level = level
         self.name = name
         self.description = description
         self.created_at = created_at
+        self.modification_date = modification_date
         self.path = path
         self.pathroot = pathroot
         self.savepath = savepath

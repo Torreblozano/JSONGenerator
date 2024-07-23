@@ -12,6 +12,7 @@ class Idata(models.Model):
     Exclude = models.BooleanField(default=False)
     SavePath = models.TextField(default='')
     modification_date = models.DateTimeField(blank=True, null=True)
+    last_update = models.DateTimeField(blank=True, null=True)
 
     def __str__(self):
         return self.name
