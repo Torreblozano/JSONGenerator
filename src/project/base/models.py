@@ -9,10 +9,9 @@ class Idata(models.Model):
     pathRoot = models.TextField(default='')
     description = models.CharField(max_length=1000)
     isDirectory = models.BooleanField(default = False)
-    Exclude = models.BooleanField(default=False)
     SavePath = models.TextField(default='')
-    modification_date = models.DateTimeField(blank=True, null=True)
     last_update = models.DateTimeField(blank=True, null=True)
+    needUpdate = models.BooleanField(default=False)
 
     def __str__(self):
         return self.name
