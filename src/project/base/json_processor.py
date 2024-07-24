@@ -1,6 +1,7 @@
 import json
-from datetime import datetime
+from datetime import datetime, timedelta
 from django.conf import settings
+from django.core.files.base import ContentFile
 from django.utils.timezone import make_aware
 from .models import Idata, UploadedFile
 from pathlib import Path
@@ -11,7 +12,8 @@ def build_directory_tree(directory, level=0):
     tree = []
     for item in directory.iterdir():
         modification_time = item.stat().st_mtime
-        modification_datetime = datetime.fromtimestamp(modification_time, tz=pytz.utc)
+        modification_datetime_utc  = datetime.fromtimestamp(modification_time, tz=pytz.utc)
+        modification_datetime = modification_datetime_utc.astimezone()
 
         if item.is_dir():
             directory_data = Idata(
@@ -94,16 +96,15 @@ def create_idata_instances(data):
 
     return created_objects
 
-
-def string_to_aware_datetime(date_string, timezone_str='UTC'):
+def string_to_aware_datetime(date_string):
 
     try:
         naive_datetime = datetime.strptime(date_string, "%Y-%m-%d %H:%M:%S")
-        timezone = pytz.timezone(timezone_str)
-        aware_datetime = timezone.localize(naive_datetime)
+        naive_datetime = naive_datetime + timedelta(hours=2)
+        aware_datetime = naive_datetime.astimezone()
         return aware_datetime
     except:
-        return None
+        return datetime.now()
 
 ### Create a new JSON
 def process_json_data(idatas):
@@ -113,10 +114,8 @@ def process_json_data(idatas):
         if not data.description:
             data.description = data.name
 
-        if  data.SavePath and data.needUpdate:
+        if not data.isDirectory and data.needUpdate:
             file_path = data.path
-            object_name = data.name
-            last_update = datetime.strptime(data.last_update, "%Y-%m-%d %H:%M:%S")
             data.SavePath = upload_file_view(file_path)
 
         if not data.id in objects_dic:

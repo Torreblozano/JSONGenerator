@@ -112,10 +112,11 @@ def make_comparison(directory_structure, json_structure):
 
     for data in directory_structure:
         json_data = json_dict.get(data.path.replace('\\', '').replace('/', '').lower())
-        if json_data and json_data.last_update < data.last_update:
+        if json_data and json_data.last_update.replace(microsecond=0) < data.last_update.replace(microsecond=0):
             data.needUpdate = True
             if isinstance(data, Idata):
                 data.save()
+
 
 #Process Result
 def Process_JSON(request):
