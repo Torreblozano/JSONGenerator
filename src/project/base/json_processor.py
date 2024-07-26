@@ -1,13 +1,13 @@
 import json
-from datetime import datetime, timedelta
+import os
 from django.conf import settings
+from datetime import datetime, timedelta
 from django.core.files.base import ContentFile
-from django.utils.timezone import make_aware
 from .models import Idata, UploadedFile
 from pathlib import Path
 import pytz
 
-### Build DDBB based on directories
+# -----> Build DDBB based on directories
 def build_directory_tree(directory, level=0):
     tree = []
     for item in directory.iterdir():
@@ -47,7 +47,7 @@ def build_directory_tree(directory, level=0):
 
     return tree
 
-### Utils
+# -----> Utils
 
 #Receive a structure (or directories) and return de root file
 def find_root_file(structure):
@@ -106,7 +106,27 @@ def string_to_aware_datetime(date_string):
     except:
         return datetime.now()
 
-### Create a new JSON
+# Make a comparison betwwen local files and an exising json datas
+def make_comparison(directory_structure, json_structure):
+    json_dict = {}
+
+    for dt in json_structure:
+        json_dict[dt.path.replace('\\', '').replace('/', '').lower()] = dt
+
+    for data in directory_structure:
+        json_data = json_dict.get(data.path.replace('\\', '').replace('/', '').lower())
+
+        if json_data:
+            if json_data.last_update.replace(microsecond=0) < data.last_update.replace(microsecond=0):
+                data.needUpdate = True
+                if isinstance(data, Idata):
+                    data.save()
+        else:
+            data.needUpdate = True
+            if isinstance(data, Idata):
+                data.save()
+
+# -----> Create a new JSON
 def process_json_data(idatas):
     objects_dic = {}
     for data in idatas:
@@ -166,17 +186,21 @@ def obj_to_dict(obj):
     }
 
 def upload_file_view(local_file_path):
-    with open(local_file_path, 'rb') as f:
-        file_path = Path(local_file_path)
-        file_name = file_path.name
+    file_path = Path(local_file_path)
+    file_name = file_path.name
 
-        with file_path.open('rb') as f:
-            file = ContentFile(f.read(), name=file_name)
-            uploaded_file = UploadedFile(file=file)
-            uploaded_file.save()
-            file_url = uploaded_file.file.url
+    uploads_dir = Path(__file__).resolve().parent.parent / 'uploads' / file_name
 
-        return file_url
+    if uploads_dir.exists():
+        os.remove(uploads_dir)
+
+    with file_path.open('rb') as f:
+        file = ContentFile(f.read(), name=file_name)
+        uploaded_file = UploadedFile(file=file)
+        uploaded_file.save()
+        file_url = uploaded_file.file.url
+
+    return file_url
 
 # Base object <<NEVER TOCUH!>>
 class My_Object:

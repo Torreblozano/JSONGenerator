@@ -10,8 +10,8 @@ from django.urls import reverse
 from django.http import HttpResponse
 
 # Own libraries
-from .json_processor import build_directory_tree, process_json_data, find_root_file, create_idata_instances
-from  .models import Idata
+from .json_processor import build_directory_tree, process_json_data, find_root_file, create_idata_instances,make_comparison
+from .models import Idata
 from .forms import UploadedFile
 
 #Views
@@ -104,18 +104,7 @@ def update_json(request):
 
     return render(request, 'base/update_json.html', {'json_form': form})
 
-def make_comparison(directory_structure, json_structure):
-    json_dict = {}
 
-    for dt in json_structure:
-        json_dict[dt.path.replace('\\', '').replace('/', '').lower()] = dt
-
-    for data in directory_structure:
-        json_data = json_dict.get(data.path.replace('\\', '').replace('/', '').lower())
-        if json_data and json_data.last_update.replace(microsecond=0) < data.last_update.replace(microsecond=0):
-            data.needUpdate = True
-            if isinstance(data, Idata):
-                data.save()
 
 
 #Process Result
