@@ -1,56 +1,53 @@
 {% extends 'base/main.html' %}
 
 {% block content %}
-    <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Edit structure</title>
-    </head>
-    <body>
-        <h2 style="display: inline-block;">Edit structure</h2>
-         <br>
+    <div class="container">
+        <h2>Edit structure</h2>
+        <br>
         {% if directory_structure %}
             {% with first_item=directory_structure.0 %}
                 {% if first_item.level > 0 %}
-                    <a href="{% url 'idata_list' path=parent_root %}">Back</a><br>
+                    <a href="{% url 'idata_list' path=parent_root %}" class="back-link">Back</a><br>
                 {% endif %}
                 <span>{{ first_item.pathRoot }}</span>
             {% endwith %}
         {% endif %}
 
-        <table>
-            <thead>
-                <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th></th>
-                    <th></th>
-                </tr>
-            </thead>
-            <tbody>
-                {% for data in directory_structure %}
+        <div class="table-container">
+            <table>
+                <thead>
                     <tr>
-                        <td>{{ data.name }}</td>
-                        <td class="description-cell">
-                            {% if not data.description %}
-                                Empty
-                            {% else %}
-                                {{ data.description }}
-                            {% endif %}
-                        </td>
-                        <td>
-                            {% if data.isDirectory %}
-                                <a href="{% url 'idata_list' path=data.path %}">Open</a>
-                            {% endif %}
-                        </td>
-                        <td>
-                            <a href="{% url 'idata_form' data.id %}">Editar</a>
-                        </td>
+                        <th>Name</th>
+                        <th>Description</th>
+                        <th></th>
+                        <th></th>
                     </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    <a href="{% url 'process' %}" style="display: inline-block; margin-left: 10px;">Process</a>
-    </body>
+                </thead>
+                <tbody>
+                    {% for data in directory_structure %}
+                        <tr>
+                            <td>{{ data.name }}</td>
+                            <td class="description-cell">
+                                {% if not data.description %}
+                                    Empty
+                                {% else %}
+                                    {{ data.description }}
+                                {% endif %}
+                            </td>
+                            <td>
+                                {% if data.isDirectory %}
+                                    <a href="{% url 'idata_list' path=data.path %}">Open</a>
+                                {% endif %}
+                            </td>
+                            <td>
+                                <a href="{% url 'idata_form' data.id %}">Edit</a>
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+        <a href="{% url 'process' %}" class="process-link">Process</a>
+    </div>
 {% endblock content %}

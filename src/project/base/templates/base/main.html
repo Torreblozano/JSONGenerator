@@ -27,6 +27,7 @@
             border-radius: 10px;
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
             overflow: hidden;
+            border-radius: 10px 50px 0 0;
         }
 
         .barra-superior {
@@ -36,7 +37,19 @@
             background: linear-gradient(90deg, #4B4D4E 0%, #4B4D4E 43%, #000B0C 100%);
             color: #fff;
             padding: 20px;
-            border-radius: 10px 10px 0 0;
+            border-radius: 10px 50px 0 0;
+        }
+
+        .barra-secundaria {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .barra-secundaria p {
+            margin: 0;
+            color: black; /* Cambia el color del texto de request.user */
+            font-family: "Oswald", sans-serif; /* O el font-family que prefieras */
         }
 
         .barra-superior h1 {
@@ -55,6 +68,13 @@
             padding: 20px;
         }
 
+        .table-container {
+            max-height: 500px; /* Ajusta esta altura según sea necesario */
+            overflow-y: auto; /* Permite el desplazamiento vertical */
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
         table {
             width: 100%;
             border-collapse: collapse;
@@ -119,6 +139,7 @@
             text-overflow: ellipsis;  /* Agrega puntos suspensivos (...) al final del texto truncado */
             white-space: nowrap;  /* Evita que el texto se divida en varias líneas */
        }
+
     </style>
     <title>Generate JSON from local files</title>
 </head>

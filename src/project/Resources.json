@@ -1,6 +1,6 @@
 {
     "Machines": {
-        "id": 39826,
+        "id": 45488,
         "level": 0,
         "name": "Machines",
         "description": "Machines",
@@ -10,7 +10,7 @@
         "savepath": "",
         "childs": [
             {
-                "id": 39827,
+                "id": 45489,
                 "level": 1,
                 "name": "ATL",
                 "description": "ATL",
@@ -20,7 +20,7 @@
                 "savepath": "",
                 "childs": [
                     {
-                        "id": 39829,
+                        "id": 45491,
                         "level": 2,
                         "name": "Minimaps",
                         "description": "Minimaps",
@@ -30,20 +30,20 @@
                         "savepath": "",
                         "childs": [
                             {
-                                "id": 39830,
+                                "id": 45492,
                                 "level": 3,
                                 "name": "Brushing-Minimap.png",
                                 "description": "Brushing-Minimap.png",
                                 "last_update": "2024-07-01 08:08:17",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Minimaps\\Brushing-Minimap.png",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Minimaps",
-                                "savepath": "/uploads/Brushing-Minimap.png",
+                                "savepath": "/uploads/Minimaps-Brushing-Minimap.png",
                                 "childs": []
                             }
                         ]
                     },
                     {
-                        "id": 39831,
+                        "id": 45493,
                         "level": 2,
                         "name": "Prefabs",
                         "description": "Prefabs",
@@ -53,42 +53,42 @@
                         "savepath": "",
                         "childs": [
                             {
-                                "id": 39832,
+                                "id": 45494,
                                 "level": 3,
                                 "name": "ATL.mtl",
                                 "description": "ATL.mtl",
                                 "last_update": "2024-06-13 07:25:26",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Prefabs\\ATL.mtl",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Prefabs",
-                                "savepath": "/uploads/ATL.mtl",
+                                "savepath": "/uploads/Prefabs-ATL.mtl",
                                 "childs": []
                             },
                             {
-                                "id": 39833,
+                                "id": 45495,
                                 "level": 3,
                                 "name": "ATL.obj",
                                 "description": "ATL.obj",
                                 "last_update": "2024-06-13 07:25:26",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Prefabs\\ATL.obj",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Prefabs",
-                                "savepath": "/uploads/ATL.obj",
+                                "savepath": "/uploads/Prefabs-ATL.obj",
                                 "childs": []
                             },
                             {
-                                "id": 39834,
+                                "id": 45496,
                                 "level": 3,
                                 "name": "ATL.zip",
                                 "description": "ATL.zip",
                                 "last_update": "2024-07-01 08:08:16",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Prefabs\\ATL.zip",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Prefabs",
-                                "savepath": "/uploads/ATL.zip",
+                                "savepath": "/uploads/Prefabs-ATL.zip",
                                 "childs": []
                             }
                         ]
                     },
                     {
-                        "id": 39835,
+                        "id": 45497,
                         "level": 2,
                         "name": "Stations",
                         "description": "Stations",
@@ -98,7 +98,7 @@
                         "savepath": "",
                         "childs": [
                             {
-                                "id": 39836,
+                                "id": 45498,
                                 "level": 3,
                                 "name": "BRUSHING",
                                 "description": "BRUSHING",
@@ -108,7 +108,7 @@
                                 "savepath": "",
                                 "childs": [
                                     {
-                                        "id": 39837,
+                                        "id": 45499,
                                         "level": 4,
                                         "name": "InfoStation",
                                         "description": "InfoStation",
@@ -118,20 +118,20 @@
                                         "savepath": "",
                                         "childs": [
                                             {
-                                                "id": 39838,
+                                                "id": 45500,
                                                 "level": 5,
                                                 "name": "info.txt",
                                                 "description": "info.txt",
                                                 "last_update": "2024-07-01 08:08:18",
                                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\InfoStation\\info.txt",
                                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\InfoStation",
-                                                "savepath": "/uploads/info.txt",
+                                                "savepath": "/uploads/InfoStation-info.txt",
                                                 "childs": []
                                             }
                                         ]
                                     },
                                     {
-                                        "id": 39839,
+                                        "id": 45501,
                                         "level": 4,
                                         "name": "Pieces",
                                         "description": "Pieces",
@@ -141,7 +141,7 @@
                                         "savepath": "",
                                         "childs": [
                                             {
-                                                "id": 39840,
+                                                "id": 45502,
                                                 "level": 5,
                                                 "name": "1946.01",
                                                 "description": "1946.01",
@@ -151,31 +151,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39841,
+                                                        "id": 45503,
                                                         "level": 6,
                                                         "name": "1946.01 (0).jpg",
                                                         "description": "1946.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:48",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1946.01\\1946.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1946.01",
-                                                        "savepath": "/uploads/1946.01_0_iF5wVrk.jpg",
+                                                        "savepath": "/uploads/1946.01-1946.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39842,
+                                                        "id": 45504,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:48",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1946.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1946.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/1946.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39843,
+                                                "id": 45505,
                                                 "level": 5,
                                                 "name": "1948.01",
                                                 "description": "1948.01",
@@ -185,31 +185,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39844,
+                                                        "id": 45506,
                                                         "level": 6,
                                                         "name": "1948.01 (0).jpg",
                                                         "description": "1948.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:49",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1948.01\\1948.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1948.01",
-                                                        "savepath": "/uploads/1948.01_0_znYJ6fo.jpg",
+                                                        "savepath": "/uploads/1948.01-1948.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39845,
+                                                        "id": 45507,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:49",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1948.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1948.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/1948.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39846,
+                                                "id": 45508,
                                                 "level": 5,
                                                 "name": "1952.01",
                                                 "description": "1952.01",
@@ -219,42 +219,42 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39847,
+                                                        "id": 45509,
                                                         "level": 6,
                                                         "name": "1952.01 (0).jpg",
                                                         "description": "1952.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:51",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1952.01\\1952.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1952.01",
-                                                        "savepath": "/uploads/1952.01_0_nZR7R0U.jpg",
+                                                        "savepath": "/uploads/1952.01-1952.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39848,
+                                                        "id": 45510,
                                                         "level": 6,
                                                         "name": "1952.01 (1).jpg",
                                                         "description": "1952.01 (1).jpg",
                                                         "last_update": "2024-07-01 08:08:51",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1952.01\\1952.01 (1).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1952.01",
-                                                        "savepath": "/uploads/1952.01_1_e1AbkoC.jpg",
+                                                        "savepath": "/uploads/1952.01-1952.01_1.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39849,
+                                                        "id": 45511,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:50",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1952.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1952.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/1952.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39850,
+                                                "id": 45512,
                                                 "level": 5,
                                                 "name": "1953.01",
                                                 "description": "1953.01",
@@ -264,42 +264,42 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39851,
+                                                        "id": 45513,
                                                         "level": 6,
                                                         "name": "1953.01 (0).jpg",
                                                         "description": "1953.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:52",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1953.01\\1953.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1953.01",
-                                                        "savepath": "/uploads/1953.01_0_zvTbxMw.jpg",
+                                                        "savepath": "/uploads/1953.01-1953.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39852,
+                                                        "id": 45514,
                                                         "level": 6,
                                                         "name": "1953.01 (1).jpg",
                                                         "description": "1953.01 (1).jpg",
                                                         "last_update": "2024-07-01 08:08:53",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1953.01\\1953.01 (1).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1953.01",
-                                                        "savepath": "/uploads/1953.01_1_EZ59RjM.jpg",
+                                                        "savepath": "/uploads/1953.01-1953.01_1.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39853,
+                                                        "id": 45515,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:52",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1953.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1953.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/1953.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39854,
+                                                "id": 45516,
                                                 "level": 5,
                                                 "name": "1955.01",
                                                 "description": "1955.01",
@@ -309,31 +309,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39855,
+                                                        "id": 45517,
                                                         "level": 6,
                                                         "name": "1955.01 (0).jpg",
                                                         "description": "1955.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:54",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1955.01\\1955.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1955.01",
-                                                        "savepath": "/uploads/1955.01_0_Zp1Al81.jpg",
+                                                        "savepath": "/uploads/1955.01-1955.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39856,
+                                                        "id": 45518,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:53",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1955.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1955.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/1955.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39857,
+                                                "id": 45519,
                                                 "level": 5,
                                                 "name": "1956.01",
                                                 "description": "1956.01",
@@ -343,53 +343,53 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39858,
+                                                        "id": 45520,
                                                         "level": 6,
                                                         "name": "1956.01 (0).jpg",
                                                         "description": "1956.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:55",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1956.01\\1956.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1956.01",
-                                                        "savepath": "/uploads/1956.01_0_NNsNvbU.jpg",
+                                                        "savepath": "/uploads/1956.01-1956.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39859,
+                                                        "id": 45521,
                                                         "level": 6,
                                                         "name": "1956.01 (1).jpg",
                                                         "description": "1956.01 (1).jpg",
                                                         "last_update": "2024-07-01 08:08:55",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1956.01\\1956.01 (1).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1956.01",
-                                                        "savepath": "/uploads/1956.01_1_P5DnuEC.jpg",
+                                                        "savepath": "/uploads/1956.01-1956.01_1.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39860,
+                                                        "id": 45522,
                                                         "level": 6,
                                                         "name": "1956.01 (2).jpg",
                                                         "description": "1956.01 (2).jpg",
                                                         "last_update": "2024-07-01 08:08:56",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1956.01\\1956.01 (2).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1956.01",
-                                                        "savepath": "/uploads/1956.01_2_J5Zn9T1.jpg",
+                                                        "savepath": "/uploads/1956.01-1956.01_2.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39861,
+                                                        "id": 45523,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:54",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1956.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1956.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/1956.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39862,
+                                                "id": 45524,
                                                 "level": 5,
                                                 "name": "1958.01",
                                                 "description": "1958.01",
@@ -399,31 +399,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39863,
+                                                        "id": 45525,
                                                         "level": 6,
                                                         "name": "1958.01 (0).jpg",
                                                         "description": "1958.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:57",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1958.01\\1958.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1958.01",
-                                                        "savepath": "/uploads/1958.01_0_yang7jy.jpg",
+                                                        "savepath": "/uploads/1958.01-1958.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39864,
+                                                        "id": 45526,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:57",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1958.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1958.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/1958.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39865,
+                                                "id": 45527,
                                                 "level": 5,
                                                 "name": "1960.01",
                                                 "description": "1960.01",
@@ -433,31 +433,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39866,
+                                                        "id": 45528,
                                                         "level": 6,
                                                         "name": "1960.01 (0).jpg",
                                                         "description": "1960.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:58",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1960.01\\1960.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1960.01",
-                                                        "savepath": "/uploads/1960.01_0_ig7rLIQ.jpg",
+                                                        "savepath": "/uploads/1960.01-1960.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39867,
+                                                        "id": 45529,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:58",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1960.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\1960.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/1960.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39868,
+                                                "id": 45530,
                                                 "level": 5,
                                                 "name": "674.01",
                                                 "description": "674.01",
@@ -467,53 +467,53 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39869,
+                                                        "id": 45531,
                                                         "level": 6,
                                                         "name": "674.01 (0).jpg",
                                                         "description": "674.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:20",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\674.01\\674.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\674.01",
-                                                        "savepath": "/uploads/674.01_0_WX2SA2o.jpg",
+                                                        "savepath": "/uploads/674.01-674.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39870,
+                                                        "id": 45532,
                                                         "level": 6,
                                                         "name": "674.01 (1).jpg",
                                                         "description": "674.01 (1).jpg",
                                                         "last_update": "2024-07-01 08:08:20",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\674.01\\674.01 (1).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\674.01",
-                                                        "savepath": "/uploads/674.01_1_Ru7iXgG.jpg",
+                                                        "savepath": "/uploads/674.01-674.01_1.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39871,
+                                                        "id": 45533,
                                                         "level": 6,
                                                         "name": "674.01 (2).jpg",
                                                         "description": "674.01 (2).jpg",
                                                         "last_update": "2024-07-01 08:08:21",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\674.01\\674.01 (2).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\674.01",
-                                                        "savepath": "/uploads/674.01_2_Y5JpWI9.jpg",
+                                                        "savepath": "/uploads/674.01-674.01_2.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39872,
+                                                        "id": 45534,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:19",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\674.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\674.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/674.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39873,
+                                                "id": 45535,
                                                 "level": 5,
                                                 "name": "675.02",
                                                 "description": "675.02",
@@ -523,64 +523,64 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39874,
+                                                        "id": 45536,
                                                         "level": 6,
                                                         "name": "675.02 (0).jpg",
                                                         "description": "675.02 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:22",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\675.02\\675.02 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\675.02",
-                                                        "savepath": "/uploads/675.02_0_50BVw6i.jpg",
+                                                        "savepath": "/uploads/675.02-675.02_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39875,
+                                                        "id": 45537,
                                                         "level": 6,
                                                         "name": "675.02 (1).jpg",
                                                         "description": "675.02 (1).jpg",
                                                         "last_update": "2024-07-01 08:08:23",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\675.02\\675.02 (1).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\675.02",
-                                                        "savepath": "/uploads/675.02_1_iA0MPgs.jpg",
+                                                        "savepath": "/uploads/675.02-675.02_1.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39876,
+                                                        "id": 45538,
                                                         "level": 6,
                                                         "name": "675.02 (2).jpg",
                                                         "description": "675.02 (2).jpg",
                                                         "last_update": "2024-07-01 08:08:23",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\675.02\\675.02 (2).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\675.02",
-                                                        "savepath": "/uploads/675.02_2_Skyf1kX.jpg",
+                                                        "savepath": "/uploads/675.02-675.02_2.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39877,
+                                                        "id": 45539,
                                                         "level": 6,
                                                         "name": "675.02 (3).jpg",
                                                         "description": "675.02 (3).jpg",
                                                         "last_update": "2024-07-01 08:08:24",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\675.02\\675.02 (3).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\675.02",
-                                                        "savepath": "/uploads/675.02_3_0TZRTqt.jpg",
+                                                        "savepath": "/uploads/675.02-675.02_3.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39878,
+                                                        "id": 45540,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:22",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\675.02\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\675.02",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/675.02-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39879,
+                                                "id": 45541,
                                                 "level": 5,
                                                 "name": "676.01",
                                                 "description": "676.01",
@@ -590,31 +590,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39880,
+                                                        "id": 45542,
                                                         "level": 6,
                                                         "name": "676.01 (0).jpg",
                                                         "description": "676.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:25",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\676.01\\676.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\676.01",
-                                                        "savepath": "/uploads/676.01_0_4AxPorO.jpg",
+                                                        "savepath": "/uploads/676.01-676.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39881,
+                                                        "id": 45543,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:24",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\676.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\676.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/676.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39882,
+                                                "id": 45544,
                                                 "level": 5,
                                                 "name": "677.01",
                                                 "description": "677.01",
@@ -624,31 +624,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39883,
+                                                        "id": 45545,
                                                         "level": 6,
                                                         "name": "677.01 (0).jpg",
                                                         "description": "677.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:26",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\677.01\\677.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\677.01",
-                                                        "savepath": "/uploads/677.01_0_Ynshaus.jpg",
+                                                        "savepath": "/uploads/677.01-677.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39884,
+                                                        "id": 45546,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:26",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\677.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\677.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/677.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39885,
+                                                "id": 45547,
                                                 "level": 5,
                                                 "name": "678.01",
                                                 "description": "678.01",
@@ -658,31 +658,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39886,
+                                                        "id": 45548,
                                                         "level": 6,
                                                         "name": "678.01 (0).jpg",
                                                         "description": "678.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:27",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\678.01\\678.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\678.01",
-                                                        "savepath": "/uploads/678.01_0_JzHI0Jy.jpg",
+                                                        "savepath": "/uploads/678.01-678.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39887,
+                                                        "id": 45549,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:27",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\678.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\678.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/678.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39888,
+                                                "id": 45550,
                                                 "level": 5,
                                                 "name": "679.01",
                                                 "description": "679.01",
@@ -692,31 +692,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39889,
+                                                        "id": 45551,
                                                         "level": 6,
                                                         "name": "679.01 (0).jpg",
                                                         "description": "679.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:28",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\679.01\\679.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\679.01",
-                                                        "savepath": "/uploads/679.01_0_ay2xuIi.jpg",
+                                                        "savepath": "/uploads/679.01-679.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39890,
+                                                        "id": 45552,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:28",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\679.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\679.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/679.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39891,
+                                                "id": 45553,
                                                 "level": 5,
                                                 "name": "681.01",
                                                 "description": "681.01",
@@ -726,31 +726,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39892,
+                                                        "id": 45554,
                                                         "level": 6,
                                                         "name": "681.01 (0).jpg",
                                                         "description": "681.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:29",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\681.01\\681.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\681.01",
-                                                        "savepath": "/uploads/681.01_0_pucIMmX.jpg",
+                                                        "savepath": "/uploads/681.01-681.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39893,
+                                                        "id": 45555,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:29",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\681.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\681.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/681.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39894,
+                                                "id": 45556,
                                                 "level": 5,
                                                 "name": "682.01",
                                                 "description": "682.01",
@@ -760,42 +760,42 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39895,
+                                                        "id": 45557,
                                                         "level": 6,
                                                         "name": "682.01 (0).jpg",
                                                         "description": "682.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:30",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.01\\682.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.01",
-                                                        "savepath": "/uploads/682.01_0_d1MAHSF.jpg",
+                                                        "savepath": "/uploads/682.01-682.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39896,
+                                                        "id": 45558,
                                                         "level": 6,
                                                         "name": "682.01 (1).jpg",
                                                         "description": "682.01 (1).jpg",
                                                         "last_update": "2024-07-01 08:08:31",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.01\\682.01 (1).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.01",
-                                                        "savepath": "/uploads/682.01_1_RurnaKS.jpg",
+                                                        "savepath": "/uploads/682.01-682.01_1.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39897,
+                                                        "id": 45559,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:30",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/682.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39898,
+                                                "id": 45560,
                                                 "level": 5,
                                                 "name": "682.02",
                                                 "description": "682.02",
@@ -805,31 +805,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39899,
+                                                        "id": 45561,
                                                         "level": 6,
                                                         "name": "682.02 (1).jpg",
                                                         "description": "682.02 (1).jpg",
                                                         "last_update": "2024-07-01 08:08:32",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.02\\682.02 (1).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.02",
-                                                        "savepath": "/uploads/682.02_1_hESFf1l.jpg",
+                                                        "savepath": "/uploads/682.02-682.02_1.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39900,
+                                                        "id": 45562,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:31",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.02\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.02",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/682.02-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39901,
+                                                "id": 45563,
                                                 "level": 5,
                                                 "name": "682.03",
                                                 "description": "682.03",
@@ -839,42 +839,42 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39902,
+                                                        "id": 45564,
                                                         "level": 6,
                                                         "name": "682.03 (0).jpg",
                                                         "description": "682.03 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:33",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.03\\682.03 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.03",
-                                                        "savepath": "/uploads/682.03_0_VdExqNN.jpg",
+                                                        "savepath": "/uploads/682.03-682.03_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39903,
+                                                        "id": 45565,
                                                         "level": 6,
                                                         "name": "682.03 (1).jpg",
                                                         "description": "682.03 (1).jpg",
                                                         "last_update": "2024-07-01 08:08:34",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.03\\682.03 (1).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.03",
-                                                        "savepath": "/uploads/682.03_1_lJa4gPu.jpg",
+                                                        "savepath": "/uploads/682.03-682.03_1.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39904,
+                                                        "id": 45566,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:33",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.03\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\682.03",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/682.03-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39905,
+                                                "id": 45567,
                                                 "level": 5,
                                                 "name": "683.01",
                                                 "description": "683.01",
@@ -884,31 +884,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39906,
+                                                        "id": 45568,
                                                         "level": 6,
                                                         "name": "683.01 (0).jpg",
                                                         "description": "683.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:35",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\683.01\\683.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\683.01",
-                                                        "savepath": "/uploads/683.01_0_ZxBL8dX.jpg",
+                                                        "savepath": "/uploads/683.01-683.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39907,
+                                                        "id": 45569,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:35",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\683.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\683.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/683.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39908,
+                                                "id": 45570,
                                                 "level": 5,
                                                 "name": "684.01",
                                                 "description": "684.01",
@@ -918,42 +918,42 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39909,
+                                                        "id": 45571,
                                                         "level": 6,
                                                         "name": "684.01 (0).jpg",
                                                         "description": "684.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:36",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\684.01\\684.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\684.01",
-                                                        "savepath": "/uploads/684.01_0_kbVBjUw.jpg",
+                                                        "savepath": "/uploads/684.01-684.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39910,
+                                                        "id": 45572,
                                                         "level": 6,
                                                         "name": "684.01 (1).jpg",
                                                         "description": "684.01 (1).jpg",
                                                         "last_update": "2024-07-01 08:08:37",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\684.01\\684.01 (1).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\684.01",
-                                                        "savepath": "/uploads/684.01_1_98RCGBe.jpg",
+                                                        "savepath": "/uploads/684.01-684.01_1.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39911,
+                                                        "id": 45573,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:36",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\684.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\684.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/684.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39912,
+                                                "id": 45574,
                                                 "level": 5,
                                                 "name": "685.01",
                                                 "description": "685.01",
@@ -963,31 +963,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39913,
+                                                        "id": 45575,
                                                         "level": 6,
                                                         "name": "685.01(0).jpg",
                                                         "description": "685.01(0).jpg",
                                                         "last_update": "2024-07-01 08:08:38",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\685.01\\685.01(0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\685.01",
-                                                        "savepath": "/uploads/685.010_WoOBEtD.jpg",
+                                                        "savepath": "/uploads/685.01-685.010.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39914,
+                                                        "id": 45576,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:37",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\685.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\685.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/685.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39915,
+                                                "id": 45577,
                                                 "level": 5,
                                                 "name": "686.01",
                                                 "description": "686.01",
@@ -997,31 +997,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39916,
+                                                        "id": 45578,
                                                         "level": 6,
                                                         "name": "686.01 (0).jpg",
                                                         "description": "686.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:39",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\686.01\\686.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\686.01",
-                                                        "savepath": "/uploads/686.01_0_njWQlh2.jpg",
+                                                        "savepath": "/uploads/686.01-686.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39917,
+                                                        "id": 45579,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:38",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\686.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\686.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/686.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39918,
+                                                "id": 45580,
                                                 "level": 5,
                                                 "name": "687.01",
                                                 "description": "687.01",
@@ -1031,31 +1031,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39919,
+                                                        "id": 45581,
                                                         "level": 6,
                                                         "name": "687.01 (0).jpg",
                                                         "description": "687.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:40",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\687.01\\687.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\687.01",
-                                                        "savepath": "/uploads/687.01_0_c9PqZOz.jpg",
+                                                        "savepath": "/uploads/687.01-687.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39920,
+                                                        "id": 45582,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:40",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\687.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\687.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/687.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39921,
+                                                "id": 45583,
                                                 "level": 5,
                                                 "name": "690.01",
                                                 "description": "690.01",
@@ -1065,31 +1065,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39922,
+                                                        "id": 45584,
                                                         "level": 6,
                                                         "name": "690.01 (0).jpg",
                                                         "description": "690.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:41",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\690.01\\690.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\690.01",
-                                                        "savepath": "/uploads/690.01_0_OUTflD5.jpg",
+                                                        "savepath": "/uploads/690.01-690.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39923,
+                                                        "id": 45585,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:41",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\690.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\690.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/690.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39924,
+                                                "id": 45586,
                                                 "level": 5,
                                                 "name": "694.01",
                                                 "description": "694.01",
@@ -1099,31 +1099,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39925,
+                                                        "id": 45587,
                                                         "level": 6,
                                                         "name": "694.01 (0).jpg",
                                                         "description": "694.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:42",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\694.01\\694.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\694.01",
-                                                        "savepath": "/uploads/694.01_0_HY6mPM9.jpg",
+                                                        "savepath": "/uploads/694.01-694.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39926,
+                                                        "id": 45588,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:42",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\694.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\694.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/694.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39927,
+                                                "id": 45589,
                                                 "level": 5,
                                                 "name": "695.01",
                                                 "description": "695.01",
@@ -1133,31 +1133,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39928,
+                                                        "id": 45590,
                                                         "level": 6,
                                                         "name": "695.01 (1).jpg",
                                                         "description": "695.01 (1).jpg",
                                                         "last_update": "2024-07-01 08:08:43",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\695.01\\695.01 (1).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\695.01",
-                                                        "savepath": "/uploads/695.01_1_20Y7cZn.jpg",
+                                                        "savepath": "/uploads/695.01-695.01_1.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39929,
+                                                        "id": 45591,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:43",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\695.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\695.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/695.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39930,
+                                                "id": 45592,
                                                 "level": 5,
                                                 "name": "696.01",
                                                 "description": "696.01",
@@ -1167,31 +1167,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39931,
+                                                        "id": 45593,
                                                         "level": 6,
                                                         "name": "696.01 (0).jpg",
                                                         "description": "696.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:44",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\696.01\\696.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\696.01",
-                                                        "savepath": "/uploads/696.01_0_4cLm8ZK.jpg",
+                                                        "savepath": "/uploads/696.01-696.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39932,
+                                                        "id": 45594,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:44",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\696.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\696.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/696.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39933,
+                                                "id": 45595,
                                                 "level": 5,
                                                 "name": "697.01",
                                                 "description": "697.01",
@@ -1201,31 +1201,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39934,
+                                                        "id": 45596,
                                                         "level": 6,
                                                         "name": "697.01 (0).jpg",
                                                         "description": "697.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:45",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\697.01\\697.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\697.01",
-                                                        "savepath": "/uploads/697.01_0_uWlrwGR.jpg",
+                                                        "savepath": "/uploads/697.01-697.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39935,
+                                                        "id": 45597,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:45",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\697.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\697.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/697.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39936,
+                                                "id": 45598,
                                                 "level": 5,
                                                 "name": "698.01",
                                                 "description": "698.01",
@@ -1235,31 +1235,31 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39937,
+                                                        "id": 45599,
                                                         "level": 6,
                                                         "name": "698.01 (0).jpg",
                                                         "description": "698.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:46",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\698.01\\698.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\698.01",
-                                                        "savepath": "/uploads/698.01_0_4pznkUu.jpg",
+                                                        "savepath": "/uploads/698.01-698.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39938,
+                                                        "id": 45600,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:46",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\698.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\698.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/698.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
                                             },
                                             {
-                                                "id": 39939,
+                                                "id": 45601,
                                                 "level": 5,
                                                 "name": "699.01",
                                                 "description": "699.01",
@@ -1269,25 +1269,25 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 39940,
+                                                        "id": 45602,
                                                         "level": 6,
                                                         "name": "699.01 (0).jpg",
                                                         "description": "699.01 (0).jpg",
                                                         "last_update": "2024-07-01 08:08:47",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\699.01\\699.01 (0).jpg",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\699.01",
-                                                        "savepath": "/uploads/699.01_0_TQnj2OY.jpg",
+                                                        "savepath": "/uploads/699.01-699.01_0.jpg",
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 39941,
+                                                        "id": 45603,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
                                                         "last_update": "2024-07-01 08:08:47",
                                                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\699.01\\icon.png",
                                                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Pieces\\699.01",
-                                                        "savepath": "/uploads/icon.png",
+                                                        "savepath": "/uploads/699.01-icon.png",
                                                         "childs": []
                                                     }
                                                 ]
@@ -1295,7 +1295,7 @@
                                         ]
                                     },
                                     {
-                                        "id": 39942,
+                                        "id": 45604,
                                         "level": 4,
                                         "name": "Prefabs",
                                         "description": "Prefabs",
@@ -1305,42 +1305,42 @@
                                         "savepath": "",
                                         "childs": [
                                             {
-                                                "id": 39943,
+                                                "id": 45605,
                                                 "level": 5,
                                                 "name": "Brushing.mtl",
                                                 "description": "Brushing.mtl",
                                                 "last_update": "2024-06-05 14:54:30",
                                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Prefabs\\Brushing.mtl",
                                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Prefabs",
-                                                "savepath": "/uploads/Brushing.mtl",
+                                                "savepath": "/uploads/Prefabs-Brushing.mtl",
                                                 "childs": []
                                             },
                                             {
-                                                "id": 39944,
+                                                "id": 45606,
                                                 "level": 5,
                                                 "name": "Brushing.obj",
                                                 "description": "Brushing.obj",
                                                 "last_update": "2024-06-05 14:54:30",
                                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Prefabs\\Brushing.obj",
                                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Prefabs",
-                                                "savepath": "/uploads/Brushing.obj",
+                                                "savepath": "/uploads/Prefabs-Brushing.obj",
                                                 "childs": []
                                             },
                                             {
-                                                "id": 39945,
+                                                "id": 45607,
                                                 "level": 5,
                                                 "name": "Brushing.zip",
                                                 "description": "Brushing.zip",
                                                 "last_update": "2024-07-01 08:09:03",
                                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Prefabs\\Brushing.zip",
                                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\Prefabs",
-                                                "savepath": "/uploads/Brushing.zip",
+                                                "savepath": "/uploads/Prefabs-Brushing.zip",
                                                 "childs": []
                                             }
                                         ]
                                     },
                                     {
-                                        "id": 39946,
+                                        "id": 45608,
                                         "level": 4,
                                         "name": "VideosInfo",
                                         "description": "VideosInfo",
@@ -1350,14 +1350,14 @@
                                         "savepath": "",
                                         "childs": [
                                             {
-                                                "id": 39947,
+                                                "id": 45609,
                                                 "level": 5,
                                                 "name": "Brushing.txt",
                                                 "description": "Brushing.txt",
                                                 "last_update": "2024-07-01 08:08:17",
                                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\VideosInfo\\Brushing.txt",
                                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations\\BRUSHING\\VideosInfo",
-                                                "savepath": "/uploads/Brushing.txt",
+                                                "savepath": "/uploads/VideosInfo-Brushing.txt",
                                                 "childs": []
                                             }
                                         ]
@@ -1367,7 +1367,7 @@
                         ]
                     },
                     {
-                        "id": 39949,
+                        "id": 45611,
                         "level": 2,
                         "name": "Videos",
                         "description": "Videos",
@@ -1377,280 +1377,280 @@
                         "savepath": "",
                         "childs": [
                             {
-                                "id": 39950,
+                                "id": 45612,
                                 "level": 3,
                                 "name": "G3 Origins units.mp4",
                                 "description": "G3 Origins units.mp4",
                                 "last_update": "2024-06-25 11:12:37",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\G3 Origins units.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/G3_Origins_units_f8cdTpc.mp4",
+                                "savepath": "/uploads/Videos-G3_Origins_units.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39951,
+                                "id": 45613,
                                 "level": 3,
                                 "name": "G4 Using Maintenance Console.mp4",
                                 "description": "G4 Using Maintenance Console.mp4",
                                 "last_update": "2024-06-25 11:13:27",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\G4 Using Maintenance Console.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/G4_Using_Maintenance_Console_C3lJK09.mp4",
+                                "savepath": "/uploads/Videos-G4_Using_Maintenance_Console.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39952,
+                                "id": 45614,
                                 "level": 3,
                                 "name": "G5 Raising recipes (1).mp4",
                                 "description": "G5 Raising recipes (1).mp4",
                                 "last_update": "2024-06-25 11:30:41",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\G5 Raising recipes (1).mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/G5_Raising_recipes_1_ErOI5fX.mp4",
+                                "savepath": "/uploads/Videos-G5_Raising_recipes_1.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39953,
+                                "id": 45615,
                                 "level": 3,
                                 "name": "G5 Raising recipes (2).mp4",
                                 "description": "G5 Raising recipes (2).mp4",
                                 "last_update": "2024-06-25 11:38:33",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\G5 Raising recipes (2).mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/G5_Raising_recipes_2_MADxQm3.mp4",
+                                "savepath": "/uploads/Videos-G5_Raising_recipes_2.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39954,
+                                "id": 45616,
                                 "level": 3,
                                 "name": "G5 Raising recipes (3).mp4",
                                 "description": "G5 Raising recipes (3).mp4",
                                 "last_update": "2024-06-25 13:09:28",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\G5 Raising recipes (3).mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/G5_Raising_recipes_3_ZGbBWfP.mp4",
+                                "savepath": "/uploads/Videos-G5_Raising_recipes_3.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39955,
+                                "id": 45617,
                                 "level": 3,
                                 "name": "G5 Raising recipes.mp4",
                                 "description": "G5 Raising recipes.mp4",
                                 "last_update": "2024-06-25 13:09:38",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\G5 Raising recipes.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/G5_Raising_recipes_gtrL0tc.mp4",
+                                "savepath": "/uploads/Videos-G5_Raising_recipes.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39956,
+                                "id": 45618,
                                 "level": 3,
                                 "name": "G6 Enabledisable units (1).mp4",
                                 "description": "G6 Enabledisable units (1).mp4",
                                 "last_update": "2024-06-26 13:38:40",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\G6 Enabledisable units (1).mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/G6_Enabledisable_units_1_QsJXZq6.mp4",
+                                "savepath": "/uploads/Videos-G6_Enabledisable_units_1.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39957,
+                                "id": 45619,
                                 "level": 3,
                                 "name": "G6 Enabledisable units.mp4",
                                 "description": "G6 Enabledisable units.mp4",
                                 "last_update": "2024-07-05 06:58:11",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\G6 Enabledisable units.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/G6_Enabledisable_units_Dvteq3b.mp4",
+                                "savepath": "/uploads/Videos-G6_Enabledisable_units.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39958,
+                                "id": 45620,
                                 "level": 3,
                                 "name": "G8 Unit control.mp4",
                                 "description": "G8 Unit control.mp4",
                                 "last_update": "2024-06-25 11:48:04",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\G8 Unit control.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/G8_Unit_control_986nuix.mp4",
+                                "savepath": "/uploads/Videos-G8_Unit_control.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39959,
+                                "id": 45621,
                                 "level": 3,
                                 "name": "U00.2 Synchronization axes.mp4",
                                 "description": "U00.2 Synchronization axes.mp4",
                                 "last_update": "2024-06-25 11:43:56",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\U00.2 Synchronization axes.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/U00.2_Synchronization_axes_9epfr1w.mp4",
+                                "savepath": "/uploads/Videos-U00.2_Synchronization_axes.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39960,
+                                "id": 45622,
                                 "level": 3,
                                 "name": "U03.1 Changing brush in brushing unit.mp4",
                                 "description": "U03.1 Changing brush in brushing unit.mp4",
                                 "last_update": "2024-06-25 13:22:32",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\U03.1 Changing brush in brushing unit.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/U03.1_Changing_brush_in_brushing_unit_f5ec4qJ.mp4",
+                                "savepath": "/uploads/Videos-U03.1_Changing_brush_in_brushing_unit.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39961,
+                                "id": 45623,
                                 "level": 3,
                                 "name": "U03.2 Adjust tube stop.mp4",
                                 "description": "U03.2 Adjust tube stop.mp4",
                                 "last_update": "2024-06-25 14:28:19",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\U03.2 Adjust tube stop.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/U03.2_Adjust_tube_stop_IH2ts1k.mp4",
+                                "savepath": "/uploads/Videos-U03.2_Adjust_tube_stop.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39962,
+                                "id": 45624,
                                 "level": 3,
                                 "name": "U03.3 Adjust driver position.mp4",
                                 "description": "U03.3 Adjust driver position.mp4",
                                 "last_update": "2024-06-25 14:28:12",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\U03.3 Adjust driver position.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/U03.3_Adjust_driver_position_Mh9qGBR.mp4",
+                                "savepath": "/uploads/Videos-U03.3_Adjust_driver_position.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39963,
+                                "id": 45625,
                                 "level": 3,
                                 "name": "U05.2 Side Adjustment.mp4",
                                 "description": "U05.2 Side Adjustment.mp4",
                                 "last_update": "2024-06-25 13:48:12",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\U05.2 Side Adjustment.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/U05.2_Side_Adjustment_HbvKPht.mp4",
+                                "savepath": "/uploads/Videos-U05.2_Side_Adjustment.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39964,
+                                "id": 45626,
                                 "level": 3,
                                 "name": "U05.3 Stop tube adjustment.mp4",
                                 "description": "U05.3 Stop tube adjustment.mp4",
                                 "last_update": "2024-06-25 13:48:25",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\U05.3 Stop tube adjustment.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/U05.3_Stop_tube_adjustment_PTsnQ3G.mp4",
+                                "savepath": "/uploads/Videos-U05.3_Stop_tube_adjustment.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39965,
+                                "id": 45627,
                                 "level": 3,
                                 "name": "U05.5 Changing chamfer clamps.mp4",
                                 "description": "U05.5 Changing chamfer clamps.mp4",
                                 "last_update": "2024-06-25 13:48:53",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\U05.5 Changing chamfer clamps.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/U05.5_Changing_chamfer_clamps_UlOXJT7.mp4",
+                                "savepath": "/uploads/Videos-U05.5_Changing_chamfer_clamps.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39966,
+                                "id": 45628,
                                 "level": 3,
                                 "name": "U10.1 Structure alignment.mp4",
                                 "description": "U10.1 Structure alignment.mp4",
                                 "last_update": "2024-06-25 13:46:08",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\U10.1 Structure alignment.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/U10.1_Structure_alignment_cIVu0P9.mp4",
+                                "savepath": "/uploads/Videos-U10.1_Structure_alignment.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39967,
+                                "id": 45629,
                                 "level": 3,
                                 "name": "U10.2 Adjustment and change of crib fittings.mp4",
                                 "description": "U10.2 Adjustment and change of crib fittings.mp4",
                                 "last_update": "2024-06-25 13:46:16",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\U10.2 Adjustment and change of crib fittings.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/U10.2_Adjustment_and_change_of_crib_fittings_71f6uqk.mp4",
+                                "savepath": "/uploads/Videos-U10.2_Adjustment_and_change_of_crib_fittings.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39968,
+                                "id": 45630,
                                 "level": 3,
                                 "name": "U12.4 Servo calibration.mp4",
                                 "description": "U12.4 Servo calibration.mp4",
                                 "last_update": "2024-06-25 13:24:20",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\U12.4 Servo calibration.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/U12.4_Servo_calibration_ZLg8HbO.mp4",
+                                "savepath": "/uploads/Videos-U12.4_Servo_calibration.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39969,
+                                "id": 45631,
                                 "level": 3,
                                 "name": "U12.5 Lubrication system configuration.mp4",
                                 "description": "U12.5 Lubrication system configuration.mp4",
                                 "last_update": "2024-06-25 13:24:32",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\U12.5 Lubrication system configuration.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/U12.5_Lubrication_system_configuration_yKThTcE.mp4",
+                                "savepath": "/uploads/Videos-U12.5_Lubrication_system_configuration.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39970,
+                                "id": 45632,
                                 "level": 3,
                                 "name": "U17.3 Removing cap from the unit.mp4",
                                 "description": "U17.3 Removing cap from the unit.mp4",
                                 "last_update": "2024-07-01 08:02:49",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\U17.3 Removing cap from the unit.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/U17.3_Removing_cap_from_the_unit_rVq0ZcI.mp4",
+                                "savepath": "/uploads/Videos-U17.3_Removing_cap_from_the_unit.mp4",
                                 "childs": []
                             },
                             {
-                                "id": 39971,
+                                "id": 45633,
                                 "level": 3,
                                 "name": "U18C.1 Laser positioned at height.mp4",
                                 "description": "U18C.1 Laser positioned at height.mp4",
                                 "last_update": "2024-06-25 11:45:54",
                                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos\\U18C.1 Laser positioned at height.mp4",
                                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos",
-                                "savepath": "/uploads/U18C.1_Laser_positioned_at_height_BhoEoJ4.mp4",
+                                "savepath": "/uploads/Videos-U18C.1_Laser_positioned_at_height.mp4",
                                 "childs": []
                             }
                         ]
                     },
                     {
-                        "id": 39828,
+                        "id": 45490,
                         "level": 2,
                         "name": "ATL-Info.txt",
                         "description": "ATL-Info.txt",
-                        "last_update": "2024-07-25 06:54:52",
+                        "last_update": "2024-08-02 10:09:55",
                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\ATL-Info.txt",
                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL",
-                        "savepath": "/uploads/ATL-Info.txt",
+                        "savepath": "/uploads/ATL-ATL-Info.txt",
                         "childs": []
                     },
                     {
-                        "id": 39948,
+                        "id": 45610,
                         "level": 2,
                         "name": "Stations.txt",
                         "description": "Stations.txt",
                         "last_update": "2024-07-10 07:41:40",
                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Stations.txt",
                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL",
-                        "savepath": "/uploads/Stations.txt",
+                        "savepath": "/uploads/ATL-Stations.txt",
                         "childs": []
                     },
                     {
-                        "id": 39972,
+                        "id": 45634,
                         "level": 2,
                         "name": "Videos.txt",
                         "description": "Videos.txt",
                         "last_update": "2024-07-10 07:41:42",
                         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL\\Videos.txt",
                         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL",
-                        "savepath": "/uploads/Videos.txt",
+                        "savepath": "/uploads/ATL-Videos.txt",
                         "childs": []
                     }
                 ]
@@ -1658,7 +1658,7 @@
         ]
     },
     "TEST": {
-        "id": 39973,
+        "id": 45635,
         "level": 0,
         "name": "TEST",
         "description": "TEST",
@@ -1668,14 +1668,14 @@
         "savepath": "",
         "childs": [
             {
-                "id": 39974,
+                "id": 45636,
                 "level": 1,
                 "name": "waikiki-beach-1049014_1280.jpg",
                 "description": "waikiki-beach-1049014_1280.jpg",
                 "last_update": "2024-07-24 08:53:38",
                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\TEST\\waikiki-beach-1049014_1280.jpg",
                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\TEST",
-                "savepath": "/uploads/waikiki-beach-1049014_1280.jpg",
+                "savepath": "/uploads/TEST-waikiki-beach-1049014_1280.jpg",
                 "childs": []
             }
         ]

@@ -1,24 +1,51 @@
 # views.py
 import json
+import os
 from pathlib import Path
 
 # Django libraries
 from django.shortcuts import render
-from django.views.generic.edit import UpdateView
+from django.views.generic.edit import UpdateView, FormView
 from django.views.generic.list import ListView
-from django.urls import reverse
+from django.urls import reverse, reverse_lazy
 from django.http import HttpResponse
+from django.contrib.auth.views import LoginView
+from django.contrib.auth.forms import UserCreationForm
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.shortcuts import redirect
 
 # Own libraries
 from .json_processor import build_directory_tree, process_json_data, find_root_file, create_idata_instances,make_comparison
-from .models import Idata
+from .models import Idata, SavedJSONS
 from .forms import UploadedFile
 
 #Views
-def index(request):
-    return render(request, 'base/index.html')
 
-class SendDirectoryListView(ListView):
+class Login(LoginView):
+    template_name = "base/login.html"
+    field = '__all__'
+    redirect_authenticated_user = True
+
+    def get_success_url(self):
+        return reverse_lazy('index')
+
+class SignUp(FormView):
+    template_name = 'base/signup.html'
+    form_class = UserCreationForm
+    redirect_authenticated_user = True
+
+    def get_success_url(self):
+        return reverse_lazy('index')
+
+def index(request):
+    user = request.user
+    saved_jsons = SavedJSONS.objects.filter(usuario=user)
+    context = {
+        'saved_jsons': saved_jsons
+    }
+    return render(request, 'base/index.html', context)
+
+class SendDirectoryListView(LoginRequiredMixin, ListView):
     model = Idata
     context_object_name = 'directory_structure'
     template_name = 'base/idata_list.html'
@@ -45,7 +72,7 @@ class SendDirectoryListView(ListView):
             context['parent_root'] = None
         return context
 
-class Edit_Data(UpdateView):
+class Edit_Data(LoginRequiredMixin,UpdateView):
     model = Idata
     fields = ['description']
 
@@ -56,11 +83,19 @@ class Edit_Data(UpdateView):
 
 #New JSON
 def new_json(request):
+    if not request.user.is_authenticated:
+        return redirect('login')
+
     if request.method == 'POST':
         Idata.objects.all().delete()
         selected_directory = request.POST.get('selected_directory')
         if selected_directory:
             root = Path(selected_directory)
+            print(root)
+
+            if SavedJSONS.objects.filter(path=str(root)).exists():
+                print('AAAAAAAA')
+
             directory_structure = build_directory_tree(root)
 
             for data in directory_structure:
@@ -75,6 +110,9 @@ def new_json(request):
 
 #Update Existing JSON
 def update_json(request):
+    if not request.user.is_authenticated:
+        return redirect('login')
+
     if request.method == 'POST':
         Idata.objects.all().delete()
         form = UploadedFile(request.POST, request.FILES)
@@ -85,8 +123,8 @@ def update_json(request):
                 data = json.load(uploaded_file)
                 json_structure = create_idata_instances(data)
                 directory_structure = []
-
                 root = find_root_file(json_structure)
+
                 if root:
                     directory_structure = build_directory_tree(root)
                 else:
@@ -104,11 +142,8 @@ def update_json(request):
 
     return render(request, 'base/update_json.html', {'json_form': form})
 
-
-
-
 #Process Result
 def Process_JSON(request):
     idatas = Idata.objects.all()
-    json_data = process_json_data(idatas)
+    json_data = process_json_data(idatas, request.user)
     return render(request, 'base/process.html', {'json_data': json.dumps(json_data, indent=4)})

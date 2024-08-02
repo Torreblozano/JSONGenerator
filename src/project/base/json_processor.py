@@ -1,9 +1,9 @@
 import json
-import os
 from django.conf import settings
 from datetime import datetime, timedelta
 from django.core.files.base import ContentFile
-from .models import Idata, UploadedFile
+from django.contrib.auth import get_user_model
+from .models import Idata, UploadedFile, SavedJSONS
 from pathlib import Path
 import pytz
 
@@ -127,7 +127,9 @@ def make_comparison(directory_structure, json_structure):
                 data.save()
 
 # -----> Create a new JSON
-def process_json_data(idatas):
+def process_json_data(idatas, user):
+    json_name = ''
+    json_main_path = ''
     objects_dic = {}
     for data in idatas:
 
@@ -148,12 +150,28 @@ def process_json_data(idatas):
     for obj_id, obj in objects_dic.items():
         if obj.level == 0:
             json_data[obj.name] = obj_to_dict(obj)
+            if not  json_name:
+                json_name = Path(obj.pathroot).name
+            if not json_main_path:
+                json_main_path = obj.pathroot
+
+    if not json_name:
+        json_name = "my_json"
 
     json_str = json.dumps(json_data, indent=4)
-    file_path = 'C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Json_proyect\\mi_archivo.json'
+    BASE_DIR =  Path(__file__).resolve().parent.parent
+    file_path = BASE_DIR / f"{json_name}.json"
 
-    with open(file_path, 'w') as file:
-        file.write(json_str)
+    try:
+        with open(file_path, 'w') as file:
+            file.write(json_str)
+        if file_path.exists():
+            saved_json = save_or_update_json(user,json_name,json_main_path)
+        else:
+            print(f"Error: No se pudo crear el archivo JSON '{file_path}'.")
+    except Exception as e:
+        print(f"Error al escribir el archivo JSON: {e}")
+        return None
 
     return json_data
 
@@ -187,12 +205,13 @@ def obj_to_dict(obj):
 
 def upload_file_view(local_file_path):
     file_path = Path(local_file_path)
-    file_name = file_path.name
+    print(Path(local_file_path))
+    file_name = file_path.parent.name + "-" + file_path.name
 
     uploads_dir = Path(__file__).resolve().parent.parent / 'uploads' / file_name
 
     if uploads_dir.exists():
-        os.remove(uploads_dir)
+        uploads_dir.unlink()
 
     with file_path.open('rb') as f:
         file = ContentFile(f.read(), name=file_name)
@@ -201,6 +220,15 @@ def upload_file_view(local_file_path):
         file_url = uploaded_file.file.url
 
     return file_url
+
+def save_or_update_json(usuario, name, path):
+    # Verificar si ya existe un SavedJSONS para el usuario con el mismo nombre
+    saved_json = SavedJSONS.objects.update_or_create(
+        usuario=usuario,
+        name=name,
+        defaults={'path': path}
+    )
+
 
 # Base object <<NEVER TOCUH!>>
 class My_Object:
