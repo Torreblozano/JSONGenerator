@@ -9,7 +9,7 @@
     </head>
     <body>
         <h2 style="display: inline-block;">Editing datas in {{ idata.name }}</h2>
-        <a href="{% url 'idata_list' path=idata.pathRoot %}" style="display: inline-block; margin-left: 10px;">Volver</a>
+        <a href="{% url 'idata_list' path=idata.pathRoot %}" style="display: inline-block; margin-left: 10px;">Back</a>
         <br>
         <span>{{ idata.pathRoot }}</span>
         <br>
@@ -20,7 +20,7 @@
             {% csrf_token %}
             {{ form.as_ul }}
             <br>
-            <input type="submit" value="Enviar">
+            <input type="submit" value="Save">
         </form>
     </body>
 {% endblock content %}

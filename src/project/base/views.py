@@ -23,7 +23,7 @@ from .forms import UploadedFile
 
 class Login(LoginView):
     template_name = "base/login.html"
-    field = '__all__'
+    fields = '__all__'
     redirect_authenticated_user = True
 
     def get_success_url(self):
@@ -38,12 +38,17 @@ class SignUp(FormView):
         return reverse_lazy('index')
 
 def index(request):
-    user = request.user
-    saved_jsons = SavedJSONS.objects.filter(usuario=user)
-    context = {
-        'saved_jsons': saved_jsons
-    }
-    return render(request, 'base/index.html', context)
+    if request.user.is_authenticated:
+        user = request.user
+        saved_jsons = SavedJSONS.objects.filter(usuario=user)
+        context = {
+            'saved_jsons': saved_jsons
+        }
+        return render(request, 'base/index.html', context)
+    else:
+        return redirect('login')
+
+
 
 class SendDirectoryListView(LoginRequiredMixin, ListView):
     model = Idata
@@ -91,11 +96,6 @@ def new_json(request):
         selected_directory = request.POST.get('selected_directory')
         if selected_directory:
             root = Path(selected_directory)
-            print(root)
-
-            if SavedJSONS.objects.filter(path=str(root)).exists():
-                print('AAAAAAAA')
-
             directory_structure = build_directory_tree(root)
 
             for data in directory_structure:
@@ -145,5 +145,5 @@ def update_json(request):
 #Process Result
 def Process_JSON(request):
     idatas = Idata.objects.all()
-    json_data = process_json_data(idatas, request.user)
-    return render(request, 'base/process.html', {'json_data': json.dumps(json_data, indent=4)})
+    json_data, file_path  = process_json_data(idatas, request.user)
+    return render(request, 'base/process.html', {'json_data': json.dumps(json_data, indent=4),  'file_path': file_path})

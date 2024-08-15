@@ -10,7 +10,7 @@
             {% if first_item.level == 0 and first_item.isDirectory %}
                 <form method="get" action="{% url 'idata_list' path=first_item.pathRoot %}">
                     {% csrf_token %}
-                    <button type="submit">Ver</button>
+                    <button type="submit">GO!</button>
                 </form>
             {% endif %}
         {% endwith %}
@@ -19,7 +19,7 @@
         <form method="post" action="{% url 'new_json' %}">
             {% csrf_token %}
             <input type="text" name="selected_directory" id="selected_directory" placeholder="Select a directory...">
-            <button type="submit">Enviar</button>
+            <button type="submit">Send</button>
         </form>
     {% endif %}
 

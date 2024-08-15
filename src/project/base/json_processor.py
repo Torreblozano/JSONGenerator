@@ -173,7 +173,7 @@ def process_json_data(idatas, user):
         print(f"Error al escribir el archivo JSON: {e}")
         return None
 
-    return json_data
+    return json_data, str(file_path)
 
 def Create_Class(Idata):
     data = Idata

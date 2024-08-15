@@ -5,13 +5,13 @@
         {% if directory_root %}
             <form method="get" action="{% url 'idata_list' path=directory_root %}">
                         {% csrf_token %}
-                         <button type="submit">Ver</button>
+                         <button type="submit">GO!</button>
             </form>
         {% else %}
             <form action="{% url 'update_json' %}" method="post" enctype="multipart/form-data">
                 {% csrf_token %}
                 {{ json_form.as_p }}
-                <button type="submit">Subir</button>
+                <button type="submit">Upload</button>
             </form>
         {% endif %}
 

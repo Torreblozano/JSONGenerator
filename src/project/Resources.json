@@ -1,26 +1,26 @@
 {
     "Machines": {
-        "id": 45488,
+        "id": 46376,
         "level": 0,
         "name": "Machines",
-        "description": "Machines",
+        "description": "test info here",
         "last_update": "2024-07-15 13:37:38",
         "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines",
         "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources",
         "savepath": "",
         "childs": [
             {
-                "id": 45489,
+                "id": 46377,
                 "level": 1,
                 "name": "ATL",
-                "description": "ATL",
+                "description": "test info here",
                 "last_update": "2024-07-24 14:39:35",
                 "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines\\ATL",
                 "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\Machines",
                 "savepath": "",
                 "childs": [
                     {
-                        "id": 45491,
+                        "id": 46379,
                         "level": 2,
                         "name": "Minimaps",
                         "description": "Minimaps",
@@ -30,7 +30,7 @@
                         "savepath": "",
                         "childs": [
                             {
-                                "id": 45492,
+                                "id": 46380,
                                 "level": 3,
                                 "name": "Brushing-Minimap.png",
                                 "description": "Brushing-Minimap.png",
@@ -43,7 +43,7 @@
                         ]
                     },
                     {
-                        "id": 45493,
+                        "id": 46381,
                         "level": 2,
                         "name": "Prefabs",
                         "description": "Prefabs",
@@ -53,7 +53,7 @@
                         "savepath": "",
                         "childs": [
                             {
-                                "id": 45494,
+                                "id": 46382,
                                 "level": 3,
                                 "name": "ATL.mtl",
                                 "description": "ATL.mtl",
@@ -64,7 +64,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45495,
+                                "id": 46383,
                                 "level": 3,
                                 "name": "ATL.obj",
                                 "description": "ATL.obj",
@@ -75,7 +75,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45496,
+                                "id": 46384,
                                 "level": 3,
                                 "name": "ATL.zip",
                                 "description": "ATL.zip",
@@ -88,7 +88,7 @@
                         ]
                     },
                     {
-                        "id": 45497,
+                        "id": 46385,
                         "level": 2,
                         "name": "Stations",
                         "description": "Stations",
@@ -98,7 +98,7 @@
                         "savepath": "",
                         "childs": [
                             {
-                                "id": 45498,
+                                "id": 46386,
                                 "level": 3,
                                 "name": "BRUSHING",
                                 "description": "BRUSHING",
@@ -108,7 +108,7 @@
                                 "savepath": "",
                                 "childs": [
                                     {
-                                        "id": 45499,
+                                        "id": 46387,
                                         "level": 4,
                                         "name": "InfoStation",
                                         "description": "InfoStation",
@@ -118,7 +118,7 @@
                                         "savepath": "",
                                         "childs": [
                                             {
-                                                "id": 45500,
+                                                "id": 46388,
                                                 "level": 5,
                                                 "name": "info.txt",
                                                 "description": "info.txt",
@@ -131,7 +131,7 @@
                                         ]
                                     },
                                     {
-                                        "id": 45501,
+                                        "id": 46389,
                                         "level": 4,
                                         "name": "Pieces",
                                         "description": "Pieces",
@@ -141,7 +141,7 @@
                                         "savepath": "",
                                         "childs": [
                                             {
-                                                "id": 45502,
+                                                "id": 46390,
                                                 "level": 5,
                                                 "name": "1946.01",
                                                 "description": "1946.01",
@@ -151,7 +151,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45503,
+                                                        "id": 46391,
                                                         "level": 6,
                                                         "name": "1946.01 (0).jpg",
                                                         "description": "1946.01 (0).jpg",
@@ -162,7 +162,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45504,
+                                                        "id": 46392,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -175,7 +175,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45505,
+                                                "id": 46393,
                                                 "level": 5,
                                                 "name": "1948.01",
                                                 "description": "1948.01",
@@ -185,7 +185,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45506,
+                                                        "id": 46394,
                                                         "level": 6,
                                                         "name": "1948.01 (0).jpg",
                                                         "description": "1948.01 (0).jpg",
@@ -196,7 +196,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45507,
+                                                        "id": 46395,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -209,7 +209,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45508,
+                                                "id": 46396,
                                                 "level": 5,
                                                 "name": "1952.01",
                                                 "description": "1952.01",
@@ -219,7 +219,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45509,
+                                                        "id": 46397,
                                                         "level": 6,
                                                         "name": "1952.01 (0).jpg",
                                                         "description": "1952.01 (0).jpg",
@@ -230,7 +230,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45510,
+                                                        "id": 46398,
                                                         "level": 6,
                                                         "name": "1952.01 (1).jpg",
                                                         "description": "1952.01 (1).jpg",
@@ -241,7 +241,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45511,
+                                                        "id": 46399,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -254,7 +254,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45512,
+                                                "id": 46400,
                                                 "level": 5,
                                                 "name": "1953.01",
                                                 "description": "1953.01",
@@ -264,7 +264,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45513,
+                                                        "id": 46401,
                                                         "level": 6,
                                                         "name": "1953.01 (0).jpg",
                                                         "description": "1953.01 (0).jpg",
@@ -275,7 +275,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45514,
+                                                        "id": 46402,
                                                         "level": 6,
                                                         "name": "1953.01 (1).jpg",
                                                         "description": "1953.01 (1).jpg",
@@ -286,7 +286,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45515,
+                                                        "id": 46403,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -299,7 +299,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45516,
+                                                "id": 46404,
                                                 "level": 5,
                                                 "name": "1955.01",
                                                 "description": "1955.01",
@@ -309,7 +309,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45517,
+                                                        "id": 46405,
                                                         "level": 6,
                                                         "name": "1955.01 (0).jpg",
                                                         "description": "1955.01 (0).jpg",
@@ -320,7 +320,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45518,
+                                                        "id": 46406,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -333,7 +333,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45519,
+                                                "id": 46407,
                                                 "level": 5,
                                                 "name": "1956.01",
                                                 "description": "1956.01",
@@ -343,7 +343,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45520,
+                                                        "id": 46408,
                                                         "level": 6,
                                                         "name": "1956.01 (0).jpg",
                                                         "description": "1956.01 (0).jpg",
@@ -354,7 +354,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45521,
+                                                        "id": 46409,
                                                         "level": 6,
                                                         "name": "1956.01 (1).jpg",
                                                         "description": "1956.01 (1).jpg",
@@ -365,7 +365,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45522,
+                                                        "id": 46410,
                                                         "level": 6,
                                                         "name": "1956.01 (2).jpg",
                                                         "description": "1956.01 (2).jpg",
@@ -376,7 +376,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45523,
+                                                        "id": 46411,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -389,7 +389,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45524,
+                                                "id": 46412,
                                                 "level": 5,
                                                 "name": "1958.01",
                                                 "description": "1958.01",
@@ -399,7 +399,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45525,
+                                                        "id": 46413,
                                                         "level": 6,
                                                         "name": "1958.01 (0).jpg",
                                                         "description": "1958.01 (0).jpg",
@@ -410,7 +410,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45526,
+                                                        "id": 46414,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -423,7 +423,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45527,
+                                                "id": 46415,
                                                 "level": 5,
                                                 "name": "1960.01",
                                                 "description": "1960.01",
@@ -433,7 +433,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45528,
+                                                        "id": 46416,
                                                         "level": 6,
                                                         "name": "1960.01 (0).jpg",
                                                         "description": "1960.01 (0).jpg",
@@ -444,7 +444,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45529,
+                                                        "id": 46417,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -457,7 +457,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45530,
+                                                "id": 46418,
                                                 "level": 5,
                                                 "name": "674.01",
                                                 "description": "674.01",
@@ -467,7 +467,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45531,
+                                                        "id": 46419,
                                                         "level": 6,
                                                         "name": "674.01 (0).jpg",
                                                         "description": "674.01 (0).jpg",
@@ -478,7 +478,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45532,
+                                                        "id": 46420,
                                                         "level": 6,
                                                         "name": "674.01 (1).jpg",
                                                         "description": "674.01 (1).jpg",
@@ -489,7 +489,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45533,
+                                                        "id": 46421,
                                                         "level": 6,
                                                         "name": "674.01 (2).jpg",
                                                         "description": "674.01 (2).jpg",
@@ -500,7 +500,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45534,
+                                                        "id": 46422,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -513,7 +513,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45535,
+                                                "id": 46423,
                                                 "level": 5,
                                                 "name": "675.02",
                                                 "description": "675.02",
@@ -523,7 +523,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45536,
+                                                        "id": 46424,
                                                         "level": 6,
                                                         "name": "675.02 (0).jpg",
                                                         "description": "675.02 (0).jpg",
@@ -534,7 +534,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45537,
+                                                        "id": 46425,
                                                         "level": 6,
                                                         "name": "675.02 (1).jpg",
                                                         "description": "675.02 (1).jpg",
@@ -545,7 +545,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45538,
+                                                        "id": 46426,
                                                         "level": 6,
                                                         "name": "675.02 (2).jpg",
                                                         "description": "675.02 (2).jpg",
@@ -556,7 +556,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45539,
+                                                        "id": 46427,
                                                         "level": 6,
                                                         "name": "675.02 (3).jpg",
                                                         "description": "675.02 (3).jpg",
@@ -567,7 +567,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45540,
+                                                        "id": 46428,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -580,7 +580,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45541,
+                                                "id": 46429,
                                                 "level": 5,
                                                 "name": "676.01",
                                                 "description": "676.01",
@@ -590,7 +590,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45542,
+                                                        "id": 46430,
                                                         "level": 6,
                                                         "name": "676.01 (0).jpg",
                                                         "description": "676.01 (0).jpg",
@@ -601,7 +601,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45543,
+                                                        "id": 46431,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -614,7 +614,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45544,
+                                                "id": 46432,
                                                 "level": 5,
                                                 "name": "677.01",
                                                 "description": "677.01",
@@ -624,7 +624,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45545,
+                                                        "id": 46433,
                                                         "level": 6,
                                                         "name": "677.01 (0).jpg",
                                                         "description": "677.01 (0).jpg",
@@ -635,7 +635,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45546,
+                                                        "id": 46434,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -648,7 +648,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45547,
+                                                "id": 46435,
                                                 "level": 5,
                                                 "name": "678.01",
                                                 "description": "678.01",
@@ -658,7 +658,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45548,
+                                                        "id": 46436,
                                                         "level": 6,
                                                         "name": "678.01 (0).jpg",
                                                         "description": "678.01 (0).jpg",
@@ -669,7 +669,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45549,
+                                                        "id": 46437,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -682,7 +682,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45550,
+                                                "id": 46438,
                                                 "level": 5,
                                                 "name": "679.01",
                                                 "description": "679.01",
@@ -692,7 +692,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45551,
+                                                        "id": 46439,
                                                         "level": 6,
                                                         "name": "679.01 (0).jpg",
                                                         "description": "679.01 (0).jpg",
@@ -703,7 +703,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45552,
+                                                        "id": 46440,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -716,7 +716,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45553,
+                                                "id": 46441,
                                                 "level": 5,
                                                 "name": "681.01",
                                                 "description": "681.01",
@@ -726,7 +726,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45554,
+                                                        "id": 46442,
                                                         "level": 6,
                                                         "name": "681.01 (0).jpg",
                                                         "description": "681.01 (0).jpg",
@@ -737,7 +737,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45555,
+                                                        "id": 46443,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -750,7 +750,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45556,
+                                                "id": 46444,
                                                 "level": 5,
                                                 "name": "682.01",
                                                 "description": "682.01",
@@ -760,7 +760,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45557,
+                                                        "id": 46445,
                                                         "level": 6,
                                                         "name": "682.01 (0).jpg",
                                                         "description": "682.01 (0).jpg",
@@ -771,7 +771,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45558,
+                                                        "id": 46446,
                                                         "level": 6,
                                                         "name": "682.01 (1).jpg",
                                                         "description": "682.01 (1).jpg",
@@ -782,7 +782,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45559,
+                                                        "id": 46447,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -795,7 +795,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45560,
+                                                "id": 46448,
                                                 "level": 5,
                                                 "name": "682.02",
                                                 "description": "682.02",
@@ -805,7 +805,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45561,
+                                                        "id": 46449,
                                                         "level": 6,
                                                         "name": "682.02 (1).jpg",
                                                         "description": "682.02 (1).jpg",
@@ -816,7 +816,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45562,
+                                                        "id": 46450,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -829,7 +829,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45563,
+                                                "id": 46451,
                                                 "level": 5,
                                                 "name": "682.03",
                                                 "description": "682.03",
@@ -839,7 +839,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45564,
+                                                        "id": 46452,
                                                         "level": 6,
                                                         "name": "682.03 (0).jpg",
                                                         "description": "682.03 (0).jpg",
@@ -850,7 +850,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45565,
+                                                        "id": 46453,
                                                         "level": 6,
                                                         "name": "682.03 (1).jpg",
                                                         "description": "682.03 (1).jpg",
@@ -861,7 +861,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45566,
+                                                        "id": 46454,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -874,7 +874,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45567,
+                                                "id": 46455,
                                                 "level": 5,
                                                 "name": "683.01",
                                                 "description": "683.01",
@@ -884,7 +884,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45568,
+                                                        "id": 46456,
                                                         "level": 6,
                                                         "name": "683.01 (0).jpg",
                                                         "description": "683.01 (0).jpg",
@@ -895,7 +895,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45569,
+                                                        "id": 46457,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -908,7 +908,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45570,
+                                                "id": 46458,
                                                 "level": 5,
                                                 "name": "684.01",
                                                 "description": "684.01",
@@ -918,7 +918,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45571,
+                                                        "id": 46459,
                                                         "level": 6,
                                                         "name": "684.01 (0).jpg",
                                                         "description": "684.01 (0).jpg",
@@ -929,7 +929,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45572,
+                                                        "id": 46460,
                                                         "level": 6,
                                                         "name": "684.01 (1).jpg",
                                                         "description": "684.01 (1).jpg",
@@ -940,7 +940,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45573,
+                                                        "id": 46461,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -953,7 +953,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45574,
+                                                "id": 46462,
                                                 "level": 5,
                                                 "name": "685.01",
                                                 "description": "685.01",
@@ -963,7 +963,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45575,
+                                                        "id": 46463,
                                                         "level": 6,
                                                         "name": "685.01(0).jpg",
                                                         "description": "685.01(0).jpg",
@@ -974,7 +974,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45576,
+                                                        "id": 46464,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -987,7 +987,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45577,
+                                                "id": 46465,
                                                 "level": 5,
                                                 "name": "686.01",
                                                 "description": "686.01",
@@ -997,7 +997,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45578,
+                                                        "id": 46466,
                                                         "level": 6,
                                                         "name": "686.01 (0).jpg",
                                                         "description": "686.01 (0).jpg",
@@ -1008,7 +1008,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45579,
+                                                        "id": 46467,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -1021,7 +1021,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45580,
+                                                "id": 46468,
                                                 "level": 5,
                                                 "name": "687.01",
                                                 "description": "687.01",
@@ -1031,7 +1031,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45581,
+                                                        "id": 46469,
                                                         "level": 6,
                                                         "name": "687.01 (0).jpg",
                                                         "description": "687.01 (0).jpg",
@@ -1042,7 +1042,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45582,
+                                                        "id": 46470,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -1055,7 +1055,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45583,
+                                                "id": 46471,
                                                 "level": 5,
                                                 "name": "690.01",
                                                 "description": "690.01",
@@ -1065,7 +1065,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45584,
+                                                        "id": 46472,
                                                         "level": 6,
                                                         "name": "690.01 (0).jpg",
                                                         "description": "690.01 (0).jpg",
@@ -1076,7 +1076,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45585,
+                                                        "id": 46473,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -1089,7 +1089,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45586,
+                                                "id": 46474,
                                                 "level": 5,
                                                 "name": "694.01",
                                                 "description": "694.01",
@@ -1099,7 +1099,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45587,
+                                                        "id": 46475,
                                                         "level": 6,
                                                         "name": "694.01 (0).jpg",
                                                         "description": "694.01 (0).jpg",
@@ -1110,7 +1110,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45588,
+                                                        "id": 46476,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -1123,7 +1123,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45589,
+                                                "id": 46477,
                                                 "level": 5,
                                                 "name": "695.01",
                                                 "description": "695.01",
@@ -1133,7 +1133,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45590,
+                                                        "id": 46478,
                                                         "level": 6,
                                                         "name": "695.01 (1).jpg",
                                                         "description": "695.01 (1).jpg",
@@ -1144,7 +1144,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45591,
+                                                        "id": 46479,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -1157,7 +1157,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45592,
+                                                "id": 46480,
                                                 "level": 5,
                                                 "name": "696.01",
                                                 "description": "696.01",
@@ -1167,7 +1167,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45593,
+                                                        "id": 46481,
                                                         "level": 6,
                                                         "name": "696.01 (0).jpg",
                                                         "description": "696.01 (0).jpg",
@@ -1178,7 +1178,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45594,
+                                                        "id": 46482,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -1191,7 +1191,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45595,
+                                                "id": 46483,
                                                 "level": 5,
                                                 "name": "697.01",
                                                 "description": "697.01",
@@ -1201,7 +1201,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45596,
+                                                        "id": 46484,
                                                         "level": 6,
                                                         "name": "697.01 (0).jpg",
                                                         "description": "697.01 (0).jpg",
@@ -1212,7 +1212,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45597,
+                                                        "id": 46485,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -1225,7 +1225,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45598,
+                                                "id": 46486,
                                                 "level": 5,
                                                 "name": "698.01",
                                                 "description": "698.01",
@@ -1235,7 +1235,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45599,
+                                                        "id": 46487,
                                                         "level": 6,
                                                         "name": "698.01 (0).jpg",
                                                         "description": "698.01 (0).jpg",
@@ -1246,7 +1246,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45600,
+                                                        "id": 46488,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -1259,7 +1259,7 @@
                                                 ]
                                             },
                                             {
-                                                "id": 45601,
+                                                "id": 46489,
                                                 "level": 5,
                                                 "name": "699.01",
                                                 "description": "699.01",
@@ -1269,7 +1269,7 @@
                                                 "savepath": "",
                                                 "childs": [
                                                     {
-                                                        "id": 45602,
+                                                        "id": 46490,
                                                         "level": 6,
                                                         "name": "699.01 (0).jpg",
                                                         "description": "699.01 (0).jpg",
@@ -1280,7 +1280,7 @@
                                                         "childs": []
                                                     },
                                                     {
-                                                        "id": 45603,
+                                                        "id": 46491,
                                                         "level": 6,
                                                         "name": "icon.png",
                                                         "description": "icon.png",
@@ -1295,7 +1295,7 @@
                                         ]
                                     },
                                     {
-                                        "id": 45604,
+                                        "id": 46492,
                                         "level": 4,
                                         "name": "Prefabs",
                                         "description": "Prefabs",
@@ -1305,7 +1305,7 @@
                                         "savepath": "",
                                         "childs": [
                                             {
-                                                "id": 45605,
+                                                "id": 46493,
                                                 "level": 5,
                                                 "name": "Brushing.mtl",
                                                 "description": "Brushing.mtl",
@@ -1316,7 +1316,7 @@
                                                 "childs": []
                                             },
                                             {
-                                                "id": 45606,
+                                                "id": 46494,
                                                 "level": 5,
                                                 "name": "Brushing.obj",
                                                 "description": "Brushing.obj",
@@ -1327,7 +1327,7 @@
                                                 "childs": []
                                             },
                                             {
-                                                "id": 45607,
+                                                "id": 46495,
                                                 "level": 5,
                                                 "name": "Brushing.zip",
                                                 "description": "Brushing.zip",
@@ -1340,7 +1340,7 @@
                                         ]
                                     },
                                     {
-                                        "id": 45608,
+                                        "id": 46496,
                                         "level": 4,
                                         "name": "VideosInfo",
                                         "description": "VideosInfo",
@@ -1350,7 +1350,7 @@
                                         "savepath": "",
                                         "childs": [
                                             {
-                                                "id": 45609,
+                                                "id": 46497,
                                                 "level": 5,
                                                 "name": "Brushing.txt",
                                                 "description": "Brushing.txt",
@@ -1367,7 +1367,7 @@
                         ]
                     },
                     {
-                        "id": 45611,
+                        "id": 46499,
                         "level": 2,
                         "name": "Videos",
                         "description": "Videos",
@@ -1377,7 +1377,7 @@
                         "savepath": "",
                         "childs": [
                             {
-                                "id": 45612,
+                                "id": 46500,
                                 "level": 3,
                                 "name": "G3 Origins units.mp4",
                                 "description": "G3 Origins units.mp4",
@@ -1388,7 +1388,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45613,
+                                "id": 46501,
                                 "level": 3,
                                 "name": "G4 Using Maintenance Console.mp4",
                                 "description": "G4 Using Maintenance Console.mp4",
@@ -1399,7 +1399,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45614,
+                                "id": 46502,
                                 "level": 3,
                                 "name": "G5 Raising recipes (1).mp4",
                                 "description": "G5 Raising recipes (1).mp4",
@@ -1410,7 +1410,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45615,
+                                "id": 46503,
                                 "level": 3,
                                 "name": "G5 Raising recipes (2).mp4",
                                 "description": "G5 Raising recipes (2).mp4",
@@ -1421,7 +1421,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45616,
+                                "id": 46504,
                                 "level": 3,
                                 "name": "G5 Raising recipes (3).mp4",
                                 "description": "G5 Raising recipes (3).mp4",
@@ -1432,7 +1432,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45617,
+                                "id": 46505,
                                 "level": 3,
                                 "name": "G5 Raising recipes.mp4",
                                 "description": "G5 Raising recipes.mp4",
@@ -1443,7 +1443,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45618,
+                                "id": 46506,
                                 "level": 3,
                                 "name": "G6 Enabledisable units (1).mp4",
                                 "description": "G6 Enabledisable units (1).mp4",
@@ -1454,7 +1454,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45619,
+                                "id": 46507,
                                 "level": 3,
                                 "name": "G6 Enabledisable units.mp4",
                                 "description": "G6 Enabledisable units.mp4",
@@ -1465,7 +1465,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45620,
+                                "id": 46508,
                                 "level": 3,
                                 "name": "G8 Unit control.mp4",
                                 "description": "G8 Unit control.mp4",
@@ -1476,7 +1476,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45621,
+                                "id": 46509,
                                 "level": 3,
                                 "name": "U00.2 Synchronization axes.mp4",
                                 "description": "U00.2 Synchronization axes.mp4",
@@ -1487,7 +1487,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45622,
+                                "id": 46510,
                                 "level": 3,
                                 "name": "U03.1 Changing brush in brushing unit.mp4",
                                 "description": "U03.1 Changing brush in brushing unit.mp4",
@@ -1498,7 +1498,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45623,
+                                "id": 46511,
                                 "level": 3,
                                 "name": "U03.2 Adjust tube stop.mp4",
                                 "description": "U03.2 Adjust tube stop.mp4",
@@ -1509,7 +1509,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45624,
+                                "id": 46512,
                                 "level": 3,
                                 "name": "U03.3 Adjust driver position.mp4",
                                 "description": "U03.3 Adjust driver position.mp4",
@@ -1520,7 +1520,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45625,
+                                "id": 46513,
                                 "level": 3,
                                 "name": "U05.2 Side Adjustment.mp4",
                                 "description": "U05.2 Side Adjustment.mp4",
@@ -1531,7 +1531,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45626,
+                                "id": 46514,
                                 "level": 3,
                                 "name": "U05.3 Stop tube adjustment.mp4",
                                 "description": "U05.3 Stop tube adjustment.mp4",
@@ -1542,7 +1542,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45627,
+                                "id": 46515,
                                 "level": 3,
                                 "name": "U05.5 Changing chamfer clamps.mp4",
                                 "description": "U05.5 Changing chamfer clamps.mp4",
@@ -1553,7 +1553,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45628,
+                                "id": 46516,
                                 "level": 3,
                                 "name": "U10.1 Structure alignment.mp4",
                                 "description": "U10.1 Structure alignment.mp4",
@@ -1564,7 +1564,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45629,
+                                "id": 46517,
                                 "level": 3,
                                 "name": "U10.2 Adjustment and change of crib fittings.mp4",
                                 "description": "U10.2 Adjustment and change of crib fittings.mp4",
@@ -1575,7 +1575,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45630,
+                                "id": 46518,
                                 "level": 3,
                                 "name": "U12.4 Servo calibration.mp4",
                                 "description": "U12.4 Servo calibration.mp4",
@@ -1586,7 +1586,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45631,
+                                "id": 46519,
                                 "level": 3,
                                 "name": "U12.5 Lubrication system configuration.mp4",
                                 "description": "U12.5 Lubrication system configuration.mp4",
@@ -1597,7 +1597,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45632,
+                                "id": 46520,
                                 "level": 3,
                                 "name": "U17.3 Removing cap from the unit.mp4",
                                 "description": "U17.3 Removing cap from the unit.mp4",
@@ -1608,7 +1608,7 @@
                                 "childs": []
                             },
                             {
-                                "id": 45633,
+                                "id": 46521,
                                 "level": 3,
                                 "name": "U18C.1 Laser positioned at height.mp4",
                                 "description": "U18C.1 Laser positioned at height.mp4",
@@ -1621,7 +1621,7 @@
                         ]
                     },
                     {
-                        "id": 45490,
+                        "id": 46378,
                         "level": 2,
                         "name": "ATL-Info.txt",
                         "description": "ATL-Info.txt",
@@ -1632,7 +1632,7 @@
                         "childs": []
                     },
                     {
-                        "id": 45610,
+                        "id": 46498,
                         "level": 2,
                         "name": "Stations.txt",
                         "description": "Stations.txt",
@@ -1643,7 +1643,7 @@
                         "childs": []
                     },
                     {
-                        "id": 45634,
+                        "id": 46522,
                         "level": 2,
                         "name": "Videos.txt",
                         "description": "Videos.txt",
@@ -1654,29 +1654,6 @@
                         "childs": []
                     }
                 ]
-            }
-        ]
-    },
-    "TEST": {
-        "id": 45635,
-        "level": 0,
-        "name": "TEST",
-        "description": "TEST",
-        "last_update": "2024-07-25 06:55:54",
-        "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\TEST",
-        "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources",
-        "savepath": "",
-        "childs": [
-            {
-                "id": 45636,
-                "level": 1,
-                "name": "waikiki-beach-1049014_1280.jpg",
-                "description": "waikiki-beach-1049014_1280.jpg",
-                "last_update": "2024-07-24 08:53:38",
-                "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\TEST\\waikiki-beach-1049014_1280.jpg",
-                "pathroot": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\Resources\\TEST",
-                "savepath": "/uploads/TEST-waikiki-beach-1049014_1280.jpg",
-                "childs": []
             }
         ]
     }
