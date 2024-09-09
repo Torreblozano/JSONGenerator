@@ -1,0 +1,14 @@
+{
+    "Machines": [
+        {
+            "AssetName": "Machines",
+            "AssetDescription": "Machines",
+            "SavePath": "",
+            "CurrentVersion": 0,
+            "updated_at": "2024-08-22 12:54:13",
+            "level": 0,
+            "path": "C:\\Users\\torre\\OneDrive\\Desktop\\Proyectos_Python\\MainJSON\\Machines",
+            "pathRoot": "Root"
+        }
+    ]
+}

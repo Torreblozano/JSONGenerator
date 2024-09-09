@@ -4,13 +4,8 @@
     <div class="container">
         <h2>Edit structure</h2>
         <br>
-        {% if directory_structure %}
-            {% with first_item=directory_structure.0 %}
-                {% if first_item.level > 0 %}
-                    <a href="{% url 'idata_list' path=parent_root %}" class="back-link">Back</a><br>
-                {% endif %}
-                <span>{{ first_item.pathRoot }}</span>
-            {% endwith %}
+        {% if parent_root %}
+            <a href="{% url 'idata_list' path=parent_root %}" class="back-link">Back</a><br>
         {% endif %}
 
         <div class="table-container">
@@ -26,12 +21,12 @@
                 <tbody>
                     {% for data in directory_structure %}
                         <tr>
-                            <td>{{ data.name }}</td>
+                            <td>{{ data.AssetName }}</td>
                             <td class="description-cell">
-                                {% if not data.description %}
+                                {% if not data.AssetDescription %}
                                     Empty
                                 {% else %}
-                                    {{ data.description }}
+                                    {{ data.AssetDescription }}
                                 {% endif %}
                             </td>
                             <td>

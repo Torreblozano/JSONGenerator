@@ -5,10 +5,10 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Editing datas in {{ idata.name }}</title>
+        <title>Editing datas in {{ idata.AssetName }}</title>
     </head>
     <body>
-        <h2 style="display: inline-block;">Editing datas in {{ idata.name }}</h2>
+        <h2 style="display: inline-block;">Editing datas in {{ idata.AssetName }}</h2>
         <a href="{% url 'idata_list' path=idata.pathRoot %}" style="display: inline-block; margin-left: 10px;">Back</a>
         <br>
         <span>{{ idata.pathRoot }}</span>

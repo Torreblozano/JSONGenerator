@@ -1,53 +1,64 @@
 import json
-from django.conf import settings
+from pathlib import Path
 from datetime import datetime, timedelta
 from django.core.files.base import ContentFile
-from django.contrib.auth import get_user_model
 from .models import Idata, UploadedFile, SavedJSONS
-from pathlib import Path
-import pytz
 
 # -----> Build DDBB based on directories
+from datetime import datetime
+import pytz
+
 def build_directory_tree(directory, level=0):
     tree = []
-    for item in directory.iterdir():
-        modification_time = item.stat().st_mtime
-        modification_datetime_utc  = datetime.fromtimestamp(modification_time, tz=pytz.utc)
+    print(directory)
+    print(level)
+
+    if level == 0:
+        # Processing the root directory
+        modification_time = directory.stat().st_mtime
+        modification_datetime_utc = datetime.fromtimestamp(modification_time, tz=pytz.utc)
         modification_datetime = modification_datetime_utc.astimezone()
 
-        if item.is_dir():
-            directory_data = Idata(
-                name=item.name,
-                level=level,
-                path=str(item.resolve()),
-                pathRoot=str(item.parent.resolve()),
-                description='',
-                isDirectory=True,
-                last_update = modification_datetime,
-                needUpdate = False
-            )
-            directory_data.save()
-            subdirectory_tree = build_directory_tree(item, level + 1)
-            tree.append(directory_data)
-            tree.extend(subdirectory_tree)
-        else:
+        data = Idata(
+            AssetName=Path(directory).name,
+            AssetDescription='',
+            updated_at=modification_datetime,
+            level=level,
+            path=str(directory),
+            pathRoot='Root',  # Adjusted to match your needs
+            isDirectory=True,
+            needUpdate=False
+        )
+        data.save()
+        tree.append(data)
+        subdirectory_tree = build_directory_tree(directory, level + 1)
+        tree.extend(subdirectory_tree)
+    else:
+        # Processing subdirectories and files
+        for item in directory.iterdir():
+            modification_time = item.stat().st_mtime
+            modification_datetime_utc = datetime.fromtimestamp(modification_time, tz=pytz.utc)
+            modification_datetime = modification_datetime_utc.astimezone()
 
-            file_data = Idata(
-                name=item.name,
+            data = Idata(
+                AssetName=item.name,
+                AssetDescription='',
+                updated_at=modification_datetime,
                 level=level,
                 path=str(item.resolve()),
                 pathRoot=str(item.parent.resolve()),
-                description='',
-                isDirectory=False,
-                last_update = modification_datetime,
-                needUpdate = False
+                isDirectory=item.is_dir(),
+                needUpdate=False
             )
-            file_data.save()
-            tree.append(file_data)
+
+            data.save()
+            tree.append(data)
+
+            if item.is_dir():
+                subdirectory_tree = build_directory_tree(item, level + 1)
+                tree.extend(subdirectory_tree)
 
     return tree
-
-# -----> Utils
 
 #Receive a structure (or directories) and return de root file
 def find_root_file(structure):
@@ -106,7 +117,6 @@ def string_to_aware_datetime(date_string):
     except:
         return datetime.now()
 
-# Make a comparison betwwen local files and an exising json datas
 def make_comparison(directory_structure, json_structure):
     json_dict = {}
 
@@ -126,82 +136,128 @@ def make_comparison(directory_structure, json_structure):
             if isinstance(data, Idata):
                 data.save()
 
+
 # -----> Create a new JSON
-def process_json_data(idatas, user):
-    json_name = ''
-    json_main_path = ''
+def CheckCurrentIdatas(idatas):
     objects_dic = {}
     for data in idatas:
-
-        if not data.description:
-            data.description = data.name
+        if not data.AssetDescription:
+            data.AssetDescription = data.AssetName
 
         if not data.isDirectory and data.needUpdate:
             file_path = data.path
             data.SavePath = upload_file_view(file_path)
 
-        if not data.id in objects_dic:
+        if data.id not in objects_dic:
             objects_dic[data.id] = Create_Class(data)
 
     for key, value in objects_dic.items():
         Find_childs(key, value, objects_dic)
 
-    json_data = {}
+    return objects_dic
+
+def GetRootObject(objects_dic):
+    obj_root = None
     for obj_id, obj in objects_dic.items():
         if obj.level == 0:
-            json_data[obj.name] = obj_to_dict(obj)
-            if not  json_name:
-                json_name = Path(obj.pathroot).name
-            if not json_main_path:
-                json_main_path = obj.pathroot
+            obj_root =  obj
+            break
 
-    if not json_name:
-        json_name = "my_json"
+    return  obj_root
 
-    json_str = json.dumps(json_data, indent=4)
-    BASE_DIR =  Path(__file__).resolve().parent.parent
+
+
+def process_json_data(idatas):
+    objects_dic = CheckCurrentIdatas(idatas)
+    obj_root = GetRootObject(objects_dic)
+
+    if not obj_root:
+        print("None root object")
+        return None, None
+
+    json_name = "MainJson"
+    json_data = build_json_structure(obj_root)
+
+    BASE_DIR = Path(__file__).resolve().parent.parent
     file_path = BASE_DIR / f"{json_name}.json"
 
     try:
         with open(file_path, 'w') as file:
-            file.write(json_str)
-        if file_path.exists():
-            saved_json = save_or_update_json(user,json_name,json_main_path)
-        else:
-            print(f"Error: No se pudo crear el archivo JSON '{file_path}'.")
+            json.dump(json_data, file, indent=4)
+        print(f"Archivo JSON guardado correctamente en '{file_path}'.")
     except Exception as e:
         print(f"Error al escribir el archivo JSON: {e}")
-        return None
+        return None, None
 
     return json_data, str(file_path)
 
+def build_json_structure(obj):
+    def remove_extension(name):
+        return name.rsplit('.', 1)[0]
+
+    def build_recursive_structure(current_obj):
+        # Si el nombre del objeto es uno de los especificados, devolvemos un array de objetos JSON directamente
+        if current_obj.AssetName in ["Stations", "blueprint", "Icon", "Video", "MiniMap", "Prefabs", "Pieces"]:
+            if current_obj.childs:
+                # Devolver una lista de los elementos hijos sin anidar
+                return [build_recursive_structure(child) for child in current_obj.childs]
+            else:
+                return []
+
+        # Construimos el objeto JSON normalmente
+        result = {
+            "AssetName": remove_extension(current_obj.AssetName),
+            "AssetDescription": current_obj.AssetDescription,
+            "SavePath": current_obj.SavePath,
+            "updated_at": current_obj.updated_at
+        }
+
+        # Si el objeto tiene hijos, construimos la estructura recursivamente
+        for child in current_obj.childs:
+            child_json = build_recursive_structure(child)
+            child_key = remove_extension(child.AssetName)
+
+            if isinstance(child_json, list):
+                # Si el resultado es una lista (es decir, no hay anidación), lo asignamos directamente
+                result[child_key] = child_json
+            else:
+                # Si no es una lista, lo envolvemos en una lista
+                result.setdefault(child_key, []).append(child_json)
+
+        return result
+
+    # Iniciamos la estructura JSON con "Machines" como el elemento principal
+    machines_structure = {
+        "AssetName": remove_extension(obj.AssetName),
+        "AssetDescription": obj.AssetDescription,
+        "SavePath": obj.SavePath,
+        "updated_at": obj.updated_at,
+        "Machines": []
+    }
+
+    # Añadimos todos los objetos principales bajo "Machines"
+    for child in obj.childs:
+        machines_structure["Machines"].append(build_recursive_structure(child))
+
+    return machines_structure
+
+
+
+
 def Create_Class(Idata):
     data = Idata
-    strf_date = data.last_update.strftime("%Y-%m-%d %H:%M:%S")
-    my_object = My_Object(data.id, data.level, data.name, data.description, strf_date, data.path, data.pathRoot, data.SavePath, None)
+    strf_date = data.updated_at.strftime("%Y-%m-%d %H:%M:%S")
+    my_object = My_Object(0, data.level, data.AssetName, data.AssetDescription, strf_date, data.path, data.pathRoot, data.SavePath, None)
     return my_object
 
 def Find_childs(id, Obj, dic):
     childs = []
     for obj in dic.values():
-        if obj.pathroot == Obj.path:
+        if obj.pathRoot == Obj.path:
             childs.append(obj)
 
     Obj.childs = childs
     dic[id] = Obj
-
-def obj_to_dict(obj):
-    return {
-        "id": obj.id,
-        "level": obj.level,
-        "name": obj.name,
-        "description": obj.description,
-        "last_update": obj.last_update,
-        "path": obj.path,
-        "pathroot": obj.pathroot,
-        "savepath": obj.savepath,
-        "childs": [obj_to_dict(child) for child in obj.childs] if obj.childs else []
-    }
 
 def upload_file_view(local_file_path):
     file_path = Path(local_file_path)
@@ -221,30 +277,20 @@ def upload_file_view(local_file_path):
 
     return file_url
 
-def save_or_update_json(usuario, name, path):
-    # Verificar si ya existe un SavedJSONS para el usuario con el mismo nombre
-    saved_json = SavedJSONS.objects.update_or_create(
-        usuario=usuario,
-        name=name,
-        defaults={'path': path}
-    )
-
-
-# Base object <<NEVER TOCUH!>>
 class My_Object:
-    def __init__(self,id, level, name, description, last_update, path, pathroot, savepath, childs):
-        self.id = id
+    def __init__(self, currentVersion, level, name, description, updated_at, path, pathRoot, savePath, childs):
+        self.CurrentVersion = currentVersion
         self.level = level
-        self.name = name
-        self.description = description
-        self.last_update = last_update
+        self.AssetName = name
+        self.AssetDescription = description
+        self.updated_at = updated_at
         self.path = path
-        self.pathroot = pathroot
-        self.savepath = savepath
+        self.pathRoot = pathRoot
+        self.SavePath = savePath
         self.childs = childs
 
     def __str__(self):
-        return (f"Name: {self.name}\n"
-                f"Description: {self.description}\n"
-                f"Creation date: {self.created_at}\n"
+        return (f"Name: {self.AssetName}\n"
+                f"Description: {self.AssetDescription}\n"
+                f"Creation date: {self.updated_at}\n"
                 f"Childs: {len(self.childs)}\n")

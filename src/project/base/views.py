@@ -9,48 +9,18 @@ from django.views.generic.edit import UpdateView, FormView
 from django.views.generic.list import ListView
 from django.urls import reverse, reverse_lazy
 from django.http import HttpResponse
-from django.contrib.auth.views import LoginView
-from django.contrib.auth.forms import UserCreationForm
-from django.contrib.auth.mixins import LoginRequiredMixin
 from django.shortcuts import redirect
-
+from django.db import connection
 # Own libraries
 from .json_processor import build_directory_tree, process_json_data, find_root_file, create_idata_instances,make_comparison
 from .models import Idata, SavedJSONS
 from .forms import UploadedFile
 
 #Views
-
-class Login(LoginView):
-    template_name = "base/login.html"
-    fields = '__all__'
-    redirect_authenticated_user = True
-
-    def get_success_url(self):
-        return reverse_lazy('index')
-
-class SignUp(FormView):
-    template_name = 'base/signup.html'
-    form_class = UserCreationForm
-    redirect_authenticated_user = True
-
-    def get_success_url(self):
-        return reverse_lazy('index')
-
 def index(request):
-    if request.user.is_authenticated:
-        user = request.user
-        saved_jsons = SavedJSONS.objects.filter(usuario=user)
-        context = {
-            'saved_jsons': saved_jsons
-        }
-        return render(request, 'base/index.html', context)
-    else:
-        return redirect('login')
+    return render(request, 'base/index.html')
 
-
-
-class SendDirectoryListView(LoginRequiredMixin, ListView):
+class SendDirectoryListView(ListView):
     model = Idata
     context_object_name = 'directory_structure'
     template_name = 'base/idata_list.html'
@@ -62,24 +32,45 @@ class SendDirectoryListView(LoginRequiredMixin, ListView):
     def get_object(self, queryset=None):
         return Idata.objects.first()
 
+    class EmptyData:
+        def __init__(self, path_root):
+            self.AssetName = "None"
+            self.AssetDescription = "None"
+            self.updated_at = None
+            self.level = 500
+            self.path = path_root
+            self.pathRoot = path_root
+            self.isDirectory = True
+            self.needUpdate = False
+
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
         path = self.kwargs.get('path')
+        path_obj = Path(path)
+
         if path:
             directory_structure = Idata.objects.filter(pathRoot=path)
-            context['directory_structure'] = directory_structure
 
-            first_item = directory_structure[0]
-            path_root = Path(first_item.pathRoot)
-            context['parent_root'] = str(path_root.parent)
+            if directory_structure:
+                context['directory_structure'] = directory_structure
+                first_item = directory_structure[0]
+                path_root = Path(first_item.pathRoot)
+
+                if first_item.level > 0:
+                    context['parent_root'] = str(path_root.parent)
+                else:
+                    context['parent_root'] = None
+            else:
+                context['directory_structure'] = None
+                context['parent_root'] = path_obj.parent
         else:
             context['directory_structure'] = None
             context['parent_root'] = None
         return context
 
-class Edit_Data(LoginRequiredMixin,UpdateView):
+class Edit_Data(UpdateView):
     model = Idata
-    fields = ['description']
+    fields = ['AssetDescription']
 
     def get_success_url(self):
         print(self.object.pathRoot)
@@ -88,12 +79,14 @@ class Edit_Data(LoginRequiredMixin,UpdateView):
 
 #New JSON
 def new_json(request):
-    if not request.user.is_authenticated:
-        return redirect('login')
-
     if request.method == 'POST':
         Idata.objects.all().delete()
+
+        with connection.cursor() as cursor:
+            cursor.execute("DELETE FROM sqlite_sequence WHERE name='base_idata'")
+
         selected_directory = request.POST.get('selected_directory')
+
         if selected_directory:
             root = Path(selected_directory)
             directory_structure = build_directory_tree(root)
@@ -108,42 +101,8 @@ def new_json(request):
         Idata.objects.all().delete()
     return render(request, 'base/new_json.html')
 
-#Update Existing JSON
-def update_json(request):
-    if not request.user.is_authenticated:
-        return redirect('login')
-
-    if request.method == 'POST':
-        Idata.objects.all().delete()
-        form = UploadedFile(request.POST, request.FILES)
-
-        if form.is_valid():
-            uploaded_file = form.cleaned_data['file']
-            try:
-                data = json.load(uploaded_file)
-                json_structure = create_idata_instances(data)
-                directory_structure = []
-                root = find_root_file(json_structure)
-
-                if root:
-                    directory_structure = build_directory_tree(root)
-                else:
-                    return HttpResponse('No se encotró la carpeta raiz.', status=400)
-
-                if directory_structure and json_structure:
-                    make_comparison(directory_structure , json_structure)
-
-                return render(request, 'base/update_json.html', {'json_form': form, 'directory_root': root})
-
-            except json.JSONDecodeError:
-                return HttpResponse('El archivo no es un JSON válido.', status=400)
-    else:
-        form = UploadedFile()
-
-    return render(request, 'base/update_json.html', {'json_form': form})
-
 #Process Result
 def Process_JSON(request):
     idatas = Idata.objects.all()
-    json_data, file_path  = process_json_data(idatas, request.user)
-    return render(request, 'base/process.html', {'json_data': json.dumps(json_data, indent=4),  'file_path': file_path})
+    json_data, file_path  = process_json_data(idatas)
+    return render(request, 'base/process.html', {'json_data': None  ,  'file_path': file_path})

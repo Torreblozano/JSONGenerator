@@ -2,19 +2,22 @@ from django.db import models
 from django.contrib.auth.models import User
 
 class Idata(models.Model):
-    usuario = models.ForeignKey(User, on_delete= models.CASCADE, null=True)
-    name = models.TextField()
+    #TO JSON
+    AssetName = models.TextField()
+    AssetDescription = models.CharField(max_length=1000)
+    SavePath = models.TextField(default='')
+    CurrentVersion = models.PositiveIntegerField(default = 0)
+    updated_at = models.DateTimeField(blank=True, null=True)
+
+    # NOT TO JSON
     level = models.PositiveIntegerField()
     path = models.TextField()
     pathRoot = models.TextField(default='')
-    description = models.CharField(max_length=1000)
     isDirectory = models.BooleanField(default = False)
-    SavePath = models.TextField(default='')
-    last_update = models.DateTimeField(blank=True, null=True)
     needUpdate = models.BooleanField(default=False)
 
     def __str__(self):
-        return self.name
+        return self.AssetName
 
     class Meta:
         ordering = ['-isDirectory']

@@ -5,27 +5,5 @@
 {% endblock home_button %}
 
 {% block content %}
- <div class="barra-secundaria">
-        {% if request.user.is_authenticated %}
-            <p>{{ request.user }}</p>
-            <a href="{% url 'logout' %}">Exit</a>
-        {% else %}
-            <a href="{% url 'login' %}">Log in</a>
-        {% endif %}
-    </div>
-
- <hr>
  <a href="{% url 'new_json' %}" style="display: inline-block; margin-left: 10px;">Generate new JSON</a>
- <a href="{% url 'update_json' %}" style="display: inline-block; margin-left: 10px;">Update existing JSON</a>
-<h2>Created JSONs:</h2>
-<ul>
-        {% for saved_json in saved_jsons %}
-            <li>
-                <strong>Name:</strong> {{ saved_json.name }}<br>
-                <strong>Path:</strong> {{ saved_json.path }}
-            </li>
-        {% empty %}
-            <li>No saved JSONs found.</li>
-        {% endfor %}
-</ul>
 {% endblock content %}
